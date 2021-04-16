@@ -164,6 +164,8 @@
 
      .i-general-5
         div.div-gradient-12
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
           .div.c-card-12
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_4.svg' alt="", style="width:70px; display:inline-block; margin:auto 0;")
             p.p2
@@ -173,14 +175,20 @@
               br
               | Puesto móvil de recolección de sangre.
         div.div-gradient-12
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
           .div.c-card-12
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_5.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
             p.mt-4.p2 #[strong Servicio de transfusión sanguínea]
         div.div-gradient-12
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
           .div.c-card-12
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_6.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
             p.mt-4.p2 #[strong Coordinaciones departamentales y distrital de sangre]
         div.div-gradient-12
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
           .div.c-card-12
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_7.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
             p.mt-4.p2 #[strong Coordinación Nacional de la Red]
@@ -251,7 +259,8 @@
       p.mt-3 En el 2015 el Instituto Nacional de Salud emite oficialmente la Circular 003, la cual tiene como propósito dar a conocer algunas recomendaciones a los actores de la red para prevenir o mitigar la deficiencia de hemocomponentes en temporada decembrina y vacacional, ya que, debido a las celebraciones y actividades relacionadas con la época, se ha evidenciado una baja en la colecta de sangre, lo cual puede impactar en la seguridad de los pacientes (INS, 2020). 
       br
       p Entre las recomendaciones dadas con respecto a promoción de la donación de sangre, están:
-
+    .jumbotron-1.mt-5
+      .row.justify-content-center.align-items-center
       .col-sm.mt-3
         .h6 
         span.etiqueta--roja #[strong Coordinación departamental:]
@@ -259,30 +268,292 @@
           li 
             i.fas.fa-angle-right
             | Promover la donación voluntaria y habitual de sangre en la población, evitando los llamados alarmantes e inesperados, ya que comprometen la seguridad transfusional.
-          li.pb-0
-            ul
-              li 
-                i.fas.fa-angle-right
-                | Requerir apoyo al Comité Departamental de Promoción (conformado por la dirección territorial y los promotores que lideran dicha área en cada uno de los bancos de sangre del departamento), esto con el fin de convocar a los donantes de sangre habituales y aquellos que hayan donado en los últimos 12 meses.
-              li 
-                i.fas.fa-angle-right
-                | Solicitud de apoyo al área de comunicaciones de la gobernación departamental para la difusión de mensajes de información, sensibilización y educación sobre la donación voluntaria y habitual de sangre, a través de las redes sociales (INS, 2020). 
+         
+          li 
+            i.fas.fa-angle-right
+            | Requerir apoyo al Comité Departamental de Promoción (conformado por la dirección territorial y los promotores que lideran dicha área en cada uno de los bancos de sangre del departamento), esto con el fin de convocar a los donantes de sangre habituales y aquellos que hayan donado en los últimos 12 meses.
+          li 
+            i.fas.fa-angle-right
+            | Solicitud de apoyo al área de comunicaciones de la gobernación departamental para la difusión de mensajes de información, sensibilización y educación sobre la donación voluntaria y habitual de sangre, a través de las redes sociales (INS, 2020). 
         .h6 
         span.etiqueta--roja  #[strong Bancos de sangre:]
         ul.lista-ul--separador.mt-3
           li 
             i.fas.fa-angle-right
             |  Abastecerse con los insumos y la logística necesaria para la colecta de sangre.
-          li.pb-0
-            ul
-              li 
-                i.fas.fa-angle-right
-                | Establecer estrategias que conlleven a sensibilizar a los donantes de sangre.
-              li 
-                i.fas.fa-angle-right
-                | Contar con personal capacitado para realizar promoción de la donación de sangre (INS, 2020). 
+            li 
+              i.fas.fa-angle-right
+              | Establecer estrategias que conlleven a sensibilizar a los donantes de sangre.
+            li 
+              i.fas.fa-angle-right
+              | Contar con personal capacitado para realizar promoción de la donación de sangre (INS, 2020). 
     
-         
+    .row.mt-5
+      .col-md-6
+        .h5.mt-2
+          b Los actores de la red deben prever aquella época en la que 
+          span.etiqueta--green la deficiencia de hemocomponentes se hace más evidente.
+      .col-md-6
+        p.mt-2 Por lo tanto, deberán crear estrategias educativas, a través de las cuales, se den a conocer a la población, 
+        b la importancia de donar sangre de manera voluntaria y frecuente para poder contar con un suministro oportuno de hemocomponentes,| pero, sobre todo, de bajo riesgo. El mensaje dado no debe ser alarmante y siempre basado en aspectos positivos.
+      
+    #t_1_4.h4.mt-5  1.4 Lineamientos
+      .titulo-segundo
+
+    p.mt-3 Dada la necesidad de fortalecer los aspectos técnicos, la Coordinación de la Red Nacional de Bancos de Sangre y Servicios de Transfusión, en cabeza del Instituto Nacional de Salud, <b> también ha dado lugar a la generación y publicación de documentos denominados como lineamientos,</b> en los cuales se dan a conocer directrices específicas y que están asociadas a la promoción de la donación de sangre.
+
+    .cajon--azul.p-4.mb-5.mb-lg-0.mt-5
+      p.mb-0 El contenido de estos documentos es considerado importante para la <b>Red de Sangre en Colombia,</b> en aras del fortalecimiento de la seguridad transfusional, razón por la cual, <b>quienes realicen actividades de promoción deben conocerlas e incentivar su implementación.</b>
+
+    .h5.mt-4 1.4.1. Lineamiento Promoción de la donación de sangre y componentes anatómicos
+
+    p.mt-3 La promoción de la donación de sangre ha sido catalogada como el pilar fundamental de la seguridad transfusional, ya que, de la gestión realizada por los encargados de desempeñar esta labor, se determina el riesgo de transmisión de infecciones a través de la transfusión y la disponibilidad de los hemocomponentes (INS, 2020). 
+    br
+    p De acuerdo con la contribución en salud pública que tiene la promoción de la donación de sangre, el presente lineamiento expresa las consideraciones que debe evaluar e implementar el promotor, la población general y quienes ejercen funciones de comunicación; lo cual quiere decir que dicho documento tiene un enfoque transversal.
+
+    .bloque-texto-a.p-4.p-md-5.mt-5
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          .h2.mb-0 Las acciones descritas en este documento se encaminan hacia los derechos humanos.
+        .col-lg-7
+          .bloque-texto-a__texto.p-4
+            p Ya que debe existir una coherencia entre lo que se desea recibir y lo que se desea para los demás. Dichas acciones permiten que los promotores de la donación de sangre perciban que el donante también es un sujeto de derechos, ya que los derechos humanos amparan a todas las personas sin ningún tipo de distinción (INS, 2020). 
+
+    p.mt-5 Por otro lado, los derechos humanos son interdependientes, por ejemplo, <b>un donante tiene derecho a ser informado sobre conductas de autocuidado, la importancia de donar sangre de manera frecuente, cuidados antes durante y posteriormente a haber donado,</b> ese tipo de información le aporta para poder ejercer su derecho a la salud y a la vida (INS, 2020).
+        
+        .row.mt-5
+          .col-md-5
+            .h5.mt-2
+              span.etiqueta--verde De la misma manera,#[br]los derechos humanos#[br] no se pierden #[br]con el tiempo.
+              
+          .col-md-5
+            p.mt-2 Por ejemplo, no es posible que hoy se informe adecuadamente al donante pero ya mañana no, así que su derecho a estar informado debe permanecer en el tiempo. Los derechos humanos deben evolucionar y en caso de que se requieran nuevos derechos, estos se deben crear. Los derechos humanos no se pueden transferir a otra persona, así que no es necesario cedérselos a nadie, además todas las personas tienen los mismos derechos. El valor de los derechos humanos está en llevarlos a la práctica (INS, 2020). 
+      
+        p.mt-5 Las consideraciones técnicas del lineamiento también están basadas en los principios éticos, por ejemplo, <b> los donantes de sangre por su acción social de salvar vidas deben ser valorados, cuando esto sucede, se cumple con el principio ético de la dignidad.</b> Así mismo, con la información previa que una persona recibe sobre la donación de sangre, puede decidir si dona o no lo hace, esta disposición <b> debe ser respetada y libre de cualquier tipo de coacción, </b> para que así no se le esté vulnerando el principio ético de la autonomía (INS, 2020).
+
+        .jumbotron-4.mt-5
+            .row.justify-content-center.align-items-center
+              .col
+                  p.mt-4 Cuando una persona dona sangre con la convicción de que su sangre es de bajo riesgo de transmitir cualquier tipo de infección, y por consiguiente, los hemocomponentes obtenidos van a beneficiar a los pacientes a los cuales les serán transfundidos, <b>se ejerce el principio ético de la beneficencia.</b> Si un donante de sangre concibe <b>la autoexclusión como un acto de responsabilidad social, se hace alusión al principio ético de no maleficencia.</b>
+              .col-auto
+                  img.number(src='@/assets/curso/images/pages/ilustraciones/ico_12.svg' alt="", style="width:150px; display:block; margin:auto 0;").img-float
+
+        .h5.mt-5 1.4.2 Lineamientos Selección de donantes de sangre
+
+        p.mt-3 Los encargados de realizar la promoción de la donación de sangre, tienen la responsabilidad de <b> informar a los donantes sobre los requisitos que deben cumplir para hacer efectiva su donación,</b> esto previamente al diligenciamiento de la encuesta y entrevista. Por esta razón, deben conocer los criterios establecidos, además de su fundamentación, especialmente centrándose en aquellos aspectos que son de un mayor interés para la población, como por ejemplo: 
+
+    .tarjeta--container.row.mb-5.mt-5
+      .col-md.tarjeta.tarjeta--roja.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_13.svg', alt='Texto que describa la imagen')
+          
+        .h3.text-center ¿Una persona que tenga tatuajes puede donar sangre? 
+        p Respuesta: Sí puede ser donante de sangre, posterior a los 12 meses después de haberse realizado el tatuaje. 
+        br
+        p Debido a que el personal del banco de sangre desconoce las condiciones de asepsia en las que el tatuaje fue realizado, se debe esperar dicho tiempo, ya que si la persona fue infectada, al comienzo de la enfermedad los niveles de la infección no son los suficientes para que sean detectados por las pruebas infecciosas realizadas por los bancos de sangre, esto a lo que se le conoce como periodo de ventana inmunológica. 
+
+      .col-md.tarjeta.tarjeta--roja-1.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_14.svg' alt="", style="width:250px; display:block; margin:auto 0;").img-float
+          
+        .h3.text-center ¿Una persona que haya tenido hepatitis?
+        br
+        p puede ser donante de sangre? Respuesta: Se presume que la actividad sexual inicia a los 12 años, si un donante potencial refiere haber tenido hepatitis antes de los 12 años, esta persona no tiene restricción para donar por este criterio, ya que seguramente a dicha edad no había iniciado su actividad sexual y, por lo tanto, lo más seguro es que haya tenido hepatitis A por contaminación de alimentos, por el contrario, si refiere haber tenido hepatitis después de los 12 años, dicho donante no se puede aceptar porque pudo haber sido una hepatitis A por contaminación de alimentos pero también pudo haber sido una hepatitis B por contacto sexual (INS, 2020).
+
+      .cajon--azul.p-4.mb-5.mb-lg-0.mt-5
+        p.mb-0 En Colombia los criterios de selección de donantes <b> de sangre se encuentran unificados bajo un lineamiento emitido por el Instituto Nacional de Salud.</b>   
+
+      #t_1_5.h4.mt-5 1.5 Boletines técnicos 
+        .titulo-segundo
+
+        p.mt-5 La red de sangre emite periódicamente boletines técnicos, los cuales tienen como propósito <b> actualizar a los actores de la red en los diferentes aspectos de la medicina transfusional.</b> Teniendo en cuenta la necesidad de fortalecer las capacidades técnicas de quienes ejercen la labor de promover la donación de sangre; a continuación, se revisará lo argumentado en dichos documentos.
+
+
+        .h5.mt-5 1.5.1 La promoción como impacto en la seguridad transfusional 
+
+    .row.mt-5
+      .col-md-6
+        .col-lg-6
+        .bloque-texto-c.p-4
+      
+          .h2.mb-2 La red que la promoción de la donación tiene una relevancia técnica en la seguridad transfusional.
+          span 
+      .col-md-5.text-jumbotron-padding
+        p Este lineamiento tiene como finalidad manifestar a los actores de la red que <b> la promoción de la donación tiene una relevancia técnica en la seguridad transfusional </b> y que, por lo tanto, se requiere de la generación de acciones para su fortalecimiento.
+        br
+        p Es por esto que el <b> Instituto Nacional de Salud da a conocer a los actores de la red las recomendaciones a tener en cuenta en la promoción de la donación voluntaria </b> y habitual de sangre, para lo cual los bancos de sangre deberán tener en cuenta lo siguiente: 
+    
+    .row.justify-content-center.align-items-center
+            .col-auto
+              
+            img.img-responsive.mt-3(src='@/assets/curso/images/pages/ilustraciones/ico_15.svg')
+
+            .col-auto 
+            img.img-responsive.mt-5(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+
+    .jumbotron-2.mt-2
+        .row.justify-content-center.align-items-center
+          .col-auto
+              img.number(src='@/assets/curso/images/pages/ilustraciones/ico_16.svg' alt="", style="width:150px; display:block; margin:auto 0;").img-float  
+          .col
+              p Tener procedimientos y registros documentados: el área de promoción debe contar con un procedimiento en el cual se estandaricen las actividades a desarrollar, de tal manera que quienes ejerzan dicha labor lo hagan de la misma manera, así mismo se deben generar <b> registros que permitan evidenciar la trazabilidad de las acciones ejecutadas,</b> además, dicha información servirá para la toma de decisiones.
+    .col-auto 
+      img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+
+      .h5.mt-5 1.5.2. Resumen casos de donación coaccionada 2016 (INS, 2020) 
+
+        p.mt-3 La donación coaccionada, familiar o de reposición ha sido considerada como de <b> alto riesgo para la transmisión de infecciones a los pacientes a través de la transfusión,</b> pues a dichos donantes se les invita a donar sin brindarles la información previa necesaria y bajo condiciones como las que se describen a continuación:
+
+    .col-sm.mt-5
+        .h6 
+  
+        ul.lista-ul--separador.mt-3
+          li 
+            i.fas.fa-angle-right
+            | Solicitud de donantes a los familiares y amigos de los pacientes a cambio de la prestación de servicios de salud.
+          li 
+            i.fas.fa-angle-right
+            | Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.
+          li 
+            i.fas.fa-angle-right
+            | Llamados de urgencia, alarmantes e inesperados.
+          li 
+            i.fas.fa-angle-right
+            | En espera de recibir un beneficio tangible a cambio, como por ejemplo, adquirir por la donación un souvenir que le fue ofrecido antes de acceder a donar. 
+          li
+            i.fas.fa-angle-right
+            | En espera de recibir un beneficio intangible a cambio, como por ejemplo, confiar en que a través de la donación de sangre se le disminuye el colesterol, los triglicéridos, las posibilidades de tener un infarto de miocardio o un accidente cerebrovascular, condiciones que no han sido comprobadas científicamente. 
+          
+        .jumbotron-4.mt-5
+            .row.justify-content-center.align-items-center
+              .col-auto
+                  img.img-jumbotron-padding(src='@/assets/curso/images/pages/ilustraciones/ico_17.svg' alt="", style="width:150px; display:block; margin:auto 0;").img-float
+              .col
+                  p.mt-4 Este boletín técnico tiene como propósito definir el algoritmo de acción cuando son notificados ante la <b> Red Nacional de Bancos de Sangre y Servicios de Transfusión del Instituto Nacional de Salud,</b> posibles casos de donación de sangre coaccionada y, a su vez, con lo identificado <b>retroalimentar a los actores de la red sobre este tipo de situaciones presentadas, </b> para evitar que se vuelvan a presentar.
+
+        .h5.mt-5 1.5.3. Mecanismos de respuesta de la Red de Sangre en emergencias 
+
+          p.mt-5 El Instituto Nacional de Salud (INS) establece los lineamientos para <b> optimizar los mecanismos de respuesta de la Red Nacional de Bancos de Sangre y Servicios de Transfusión ante situaciones críticas de desabastecimiento de sangre y hemocomponentes </b> a nivel nacional, departamental y local (desastres naturales, eventos públicos que concentran gran número de personas, situación social de conflicto que pueda generar alto número de pacientes, entre otros); <b>protegiendo la sangre como un bien de interés público social y garantizando el fortalecimiento de la seguridad transfusional</b> bajo los principios de acceso, equidad, solidaridad y seguridad.
+
+          p.mt-3 Por lo tanto, establece las actividades que deben realizar los actores de la red para responder efectivamente ante una alerta ocasionada por riesgo de desastre, emergencia o desastre, entre las cuales están:
+
+        .row.justify-content-center.align-items-center.mt-3      
+        .col-auto 
+        
+        p.text-jumbotron-padding.mt-5 Responsable de monitorear el comportamiento de los bancos de sangre. Así mismo debe identificar la disponibilidad de hemocomponentes en los bancos de sangre priorizados para generar respuesta (por tamaño, o cercanía geográfica), a través del Sistema de información en Hemovigilancia Sihevi-INS©. 
+        p.text-jumbotron-padding También es el encargado de <b>establecer los mecanismos de comunicación con los bancos de sangre </b> que prestaran el apoyo requerido.
+
+        .h5.text-jumbotron-padding.mt-3 Flujo de comunicación para cubrir el desabastecimiento de los hemocomponentes
+            
+    .i-general-5
+        div.div-gradient-13
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+          .div.c-card-13
+            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_5.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
+            p #[strong El Centro Regulador de Urgencias y Emergencias Nacional – CRUE] #[br] Alertará al INS a través del Centro Regulador de Trasplantes – CRT, sobre la preparación para la respuesta o activación del abastecimiento de sangre y hemocomponentes en casos de riesgo de desastre, emergencia o desastre. 
+        div.div-gradient-13
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+          .div.c-card-13
+            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_19.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float
+            p #[strong El INS en su rol de autoridad nacional y vocero oficial] #[br] Debe generar alerta a los bancos de sangre, iniciando con los que reportan <b> una captación superior a 12.000 unidades al año,</b> junto a aquellos que estén cercanos a la zona del evento (riesgo de desastre, emergencia o desastre), con el fin de que verifiquen su inventario de sangre y hemocomponentes, lo racionen y estén preparados para apoyar la movilización de los mismos en caso de que se requiera. 
+        div.div-gradient-13
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+          .div.c-card-13
+            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_20.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
+            p #[strong El INS será el vocero oficial ante el Ministerio de Salud y Protección Social] #[br]Y los actores de la red de sangre para reportar la situación de disponibilidad y la oportunidad en la respuesta ante necesidades de hemocomponentes en situaciones de riesgo de desastre, emergencia o desastre en el territorio nacional.
+          .col-auto 
+             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+
+    .h5.mt-5 1.5.4. Colecta de Sangre en Puestos Móviles (INS, 2020)
+
+        p.mt-3 El presente documento fue publicado por el Instituto Nacional de Salud, con el fin de que los <b> bancos de sangre conozcan los pasos para organizar y desarrollar la colecta de sangre </b> y dando a conocer algunas acciones a tener en cuenta antes, durante y después de la colecta de sangre en los puestos móviles, esto con el fin de fortalecer la seguridad transfusional.
+
+    
+    AcordionA.mb-5.mt-3(clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Revisión de indicadores y gestión de inventarios")
+        .col.mb-4.mb-md-0
+          span.etiqueta--verde Previamente a la jornada de donación
+          p.mt-3 Este tipo de información le permite al promotor tomar decisiones adecuadas sobre el número de unidades a colectar y así definir las jornadas a realizar. También permite que el promotor pueda observar a través del tipo de donante captado y de las tasas de positividad, si realmente las estrategias educativas implementadas están conllevando a la captación donantes con una probabilidad baja de tener alguna infección. 
+
+      .row(titulo="Sistema de Gestión de Calidad")
+        .col.mb-4.mb-md-0
+          span.etiqueta--verde Durante jornada de donación 
+          p.mt-3 Documentar dentro de los procesos de captación, selección y donación, los procedimientos y actividades realizadas. Registrar cada actividad en los formatos establecidos, de tal manera que se pueda observar la trazabilidad del proceso de promoción.
+      .row(titulo="Sistema Gestión de Calidad y Revisión de indicadores")
+        .col.mb-4.mb-md-0
+          span.etiqueta--verde Posterior a la jornada de donación
+          p.mt-3 Realizar análisis de indicadores (% donante habitual, tasas de positividad, entre otros), para establecer: acciones de mejora y proyección de metas.
+          br
+          p Determinar las causas y realizar análisis y seguimiento de las RAD presentadas. Llevar a cabo ejercicios de trazabilidad que permitan verificar el cumplimiento de los lineamientos, procedimientos y actividades relacionadas con los procesos de promoción, selección de donantes y colecta, entre otros. Además, realizar análisis de encuestas de satisfacción e implementación de acciones de mejora.
+          br
+          p Se deben realizar análisis de las situaciones que se puedan presentar como no conformidades en la actividad realizada en la campaña y las personas responsables deberán documentar el análisis de la situación, las acciones a realizar para evitar la situación y el seguimiento de las recurrencias, con el fin de tomar acciones más drásticas.
+       
+    .h5.mt-5 1.5.5 Estrategias asociadas a promoción de la donación de sangre (INS, 2020)
+
+    p.mt-5 Debido a que los productos sanguíneos generan un alto impacto en la prestación de los servicios de salud, en la calidad de vida de ciertos pacientes y en la salud pública de un país, <b> esta estrategia da a conocer la propuesta de algunas de las actividades que son permanentes y deben ser desarrolladas por cada actor que hace parte de la red de sangre,</b> con el fin de lograr los objetivos comunes: solidaridad, acceso, disponibilidad, y seguridad en el territorio nacional. 
+    br
+    p Dentro de las acciones que debe realizar los promotores (bancos de sangre), se recomienda:
+
+    .jumbotron-1.mt-5
+      .row.justify-content-center.align-items-center
+      .col-sm.mt-3
+        .h6 
+        span.etiqueta--roja #[strong Información, sensibilización y educación:]
+        ul.lista-ul--separador.mt-3
+          li 
+            i.fas.fa-angle-right
+            | Proyectar mensajes dirigidos a la comunidad en donde se fundamente la importancia de la donación voluntaria y habitual de sangre, conductas de autocuidado, aclaración de mitos y motivación de autoexclusión como conducta solidaria.
+          li 
+            i.fas.fa-angle-right
+            |   Programar recursos (incluye económicos y humanos) que permitan viabilizar la implementación de estrategias para informar, sensibilizar y educar sobre la donación voluntaria y habitual de sangre.
+          li
+            i.fas.fa-angle-right
+            | Programar proyectos de investigación en donación voluntaria y habitual de sangre.
+          li
+            i.fas.fa-angle-right
+            | Prever la organización de semilleros de promotores (voluntariado) en funcionarios empresariales, estudiantes de colegio y universidades.
+        span.etiqueta--roja #[strong Día Mundial del Donante de Sangre:]
+        ul.lista-ul--separador.mt-3
+          li 
+            i.fas.fa-angle-right
+            |  Identificar el tema y lema definido para la celebración, por el nivel nacional (INS) y acorde al llamado internacional.
+          li 
+            i.fas.fa-angle-right
+            |    Definir el homenaje y tipo de reconocimiento social para donantes habituales y empresas que apoyan la donación de sangre.
+        span.etiqueta--roja #[strong Retroalimentación de indicadores:]
+        ul.lista-ul--separador.mt-3
+          li 
+            i.fas.fa-angle-right
+            |    Programar jornadas de capacitación para la interpretación, análisis y toma de decisión, sobre el comportamiento de los indicadores que impactan el proceso de promoción de la donación voluntaria y habitual de sangre.
+        span.etiqueta--roja #[strong Campañas masivas / Campañas de donación de sangre periódicas:]
+        ul.lista-ul--separador.mt-3
+          li 
+            i.fas.fa-angle-right
+            | Programar capacitaciones, respecto a los aspectos técnicos que se deben tener en cuenta en la planeación y programación de jornadas masivas y periódicas de donación de sangre.
+
+          li 
+            i.fas.fa-angle-right
+            | Priorizar la planeación de jornadas de donación en población de bajo riesgo acorde con las necesidades de inventarios y demanda de hemocomponentes a satisfacer.
+          li
+            i.fas.fa-angle-right
+            | Contar con una base de datos que contenga la información de contacto de los donantes habituales y con grupos sanguíneos de alta demanda.
+
+
+
+
+
+
+
+
+
+
 
 
 
