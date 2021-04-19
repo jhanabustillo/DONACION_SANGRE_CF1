@@ -14,210 +14,47 @@ export const menuPrincipal = {
       titulo: 'Volver al inicio',
     },
     {
-      nombreRuta: 'introduccion',
-      icono: 'fas fa-info',
-      titulo: 'Introducción',
-      desarrolloContenidos: true,
-    },
-    {
       nombreRuta: 'tema1',
       icono: 'far fa-file-alt',
       numero: '1',
-      titulo: 'Componentes',
+      titulo: 'Introducción al marco normativo',
       desarrolloContenidos: true,
       subMenu: [
         {
           icono: 'far fa-file-alt',
           numero: '1.1',
-          titulo: 'Estilos tipográficos',
+          titulo: 'Decreto 1571 de 1993',
           hash: 't_1_1',
         },
         {
           icono: 'far fa-file-alt',
           numero: '1.2',
-          titulo: 'Párrafos',
+          titulo: 'Resolución 0901 de 1996',
           hash: 't_1_2',
         },
         {
           icono: 'far fa-file-alt',
           numero: '1.3',
-          titulo: 'Bloques de texto destacado',
+          titulo: 'Circulares',
           hash: 't_1_3',
         },
         {
           icono: 'far fa-file-alt',
           numero: '1.4',
-          titulo: 'Listas',
+          titulo: 'Lineamientos',
           hash: 't_1_4',
         },
         {
           icono: 'far fa-file-alt',
           numero: '1.5',
-          titulo: 'Tablas',
+          titulo: 'Boletines técnicos',
           hash: 't_1_5',
         },
         {
           icono: 'far fa-file-alt',
           numero: '1.6',
-          titulo: 'Imagen',
+          titulo: 'Estándares de trabajo para servicios de sangre (OPS, 2020)',
           hash: 't_1_6',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.7',
-          titulo: 'Video',
-          hash: 't_1_7',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.8',
-          titulo: 'Componentes',
-          hash: 't_1_8',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.9',
-          titulo: 'Carrusel',
-          hash: 't_1_9',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.10',
-          titulo: 'Acordion',
-          hash: 't_1_10',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.11',
-          titulo: 'Pestañas o Tabs',
-          hash: 't_1_11',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.12',
-          titulo: 'Líneas de tiempo',
-          hash: 't_1_12',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.13',
-          titulo: 'Pasos',
-          hash: 't_1_13',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.14',
-          titulo: 'Llamados a la acción',
-          hash: 't_1_14',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '1.15',
-          titulo: 'Tarjetas',
-          hash: 't_1_15',
-        },
-      ],
-    },
-    {
-      nombreRuta: 'tema2',
-      icono: 'far fa-file-alt',
-      numero: '2',
-      titulo: 'Ficha técnica de diseño (software de diseño)',
-      desarrolloContenidos: true,
-      subMenu: [
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.1',
-          titulo: 'Conceptos de dibujo plano',
-          hash: 't_2_1',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.2',
-          titulo: 'Categorización de prendas',
-          hash: 't_2_2',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.3',
-          titulo: 'Técnica de achurados y acabados',
-          hash: 't_2_3',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.4',
-          titulo: 'Dibujo de bitácora de formas',
-          hash: 't_2_4',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.5',
-          titulo: 'Dibujo plano de prendas',
-          hash: 't_2_5',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.6',
-          titulo: 'Análisis de proporciones prendas superiores e inferiores',
-          hash: 't_2_6',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.7',
-          titulo: 'Interfaz programa CAD',
-          hash: 't_2_7',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '2.8',
-          titulo: 'Ficha técnica',
-          hash: 't_2_8',
-        },
-      ],
-    },
-    {
-      nombreRuta: 'tema3',
-      icono: 'far fa-file-alt',
-      numero: '3',
-      titulo: 'Fundamentación Textil',
-      desarrolloContenidos: true,
-      subMenu: [
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.1',
-          titulo:
-            'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-          hash: 't_3_1',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.2',
-          titulo: 'Identificación fibras por combustión',
-          hash: 't_3_2',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.3',
-          titulo: 'Clasificación de los hilos',
-          hash: 't_3_3',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.4',
-          titulo: 'Clasificación de tejidos',
-          hash: 't_3_4',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.5',
-          titulo: 'Caracterización de los tejidos',
-          hash: 't_3_5',
-        },
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.6',
-          titulo: 'Procesos textiles',
-          hash: 't_3_6',
         },
       ],
     },
@@ -261,14 +98,9 @@ export const creditos = {
   liderEquipo: {
     nombre: 'Maria Camila Garcia Santamaria',
     cargo: 'Líder del equipo',
+    regional: 'Dirección general',
   },
   contenidoInstruccional: [
-    {
-      nombre: 'Gloria Matilde Lee Mejía',
-      cargo: 'Responsable del equipo',
-      centro: 'Centro de Comercio y Servicios',
-      regional: 'Regional Tolima',
-    },
     {
       nombre: 'Rafael Neftalí Lizcano Reyes',
       cargo: 'Asesor pedagógico',
@@ -276,50 +108,27 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Astrid Lili Puerta',
+      nombre: 'Magda Juliana Rodríguez Rodríguez',
       cargo: 'Experta temática',
-      centro: 'Centro Agropecuario de Buga',
-      regional: 'Regional valle',
+      centro: 'Red Nacional Bancos de Sangre y Servicio de Transfusión.',
     },
     {
-      nombre: 'Javier Enrique Santana',
-      cargo: 'Experto temático',
-      centro: 'Centro de Gestión Industrial',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Michael Andrés Cortés Caro',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Mauricio Jiménez Fajardo',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Manuel Alejandro Garzón Cárdenas',
-      cargo: 'Experto temático',
-      centro: 'Deutsche Gesellschaft für',
-      regional: 'Internationale Zusammenarbeit (GIZ)',
-    },
-    {
-      nombre: 'Liliana Victoria Morales Gualdrón',
-      cargo: 'Diseñador instruccional',
-      centro: 'Centro para la Industria y la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Carlos Andrés Rodríguez',
-      cargo: 'Evaluador instruccional',
+      nombre: 'Maryuri Agudelo Franco',
+      cargo: 'Diseñadora Instruccional',
       centro: 'Centro de Diseño y Metrología',
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Julieth Paola Vital López',
-      cargo: 'Revisora de estilo',
-      centro: 'Centro para la Industria de la Comunicación Gráfica',
+      nombre: 'José Gabriel Ortiz Abella',
+      cargo: 'Evaluador instruccional',
+      centro: 'Centro para la Industria y la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
+    },
+    {
+      nombre: 'María Isabel Román Rueda',
+      cargo: 'Revisora de estilo',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
     },
   ],
   desarrolloProducto: [
@@ -332,11 +141,20 @@ export const creditos = {
       cargo: 'Integración de recursos y pruebas',
     },
     {
-      nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+      nombre: [
+        'Camilo Andrés Villamizar Lizcano',
+        'José Jaime Luis Tang Pinzón',
+        'Maria Camila Ovalle Ospina',
+        'María Natalia Maldonado Delgado',
+        'Wilson Andres Arenales Cáceres',
+        'Zuleidy Maria Ruiz Torres',
+      ],
       cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
     },
     {
-      nombre: 'Edward Leonardo Pico Cabra',
+      nombre: 'Gustavo Adolfo Marún Suárez',
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -346,8 +164,8 @@ export const creditos = {
   ],
   gestoresRepositorio: [
     {
-      nombre: 'Brayan Stiven Pinto Diaz',
-      cargo: ['Desarrollo front-end', 'Validación de recursos'],
+      nombre: 'Milady Tatiana Villamil Castellanos',
+      cargo: ['Validación de recursos'],
       centro: 'Centro de comercio y servicios',
       regional: 'Regional Tolima',
     },
@@ -357,99 +175,120 @@ export const creditos = {
 export const referencias = [
   {
     referencia:
-      'Blackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-    link:
-      'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+      'Instituto Nacional de Salud. (2020). Circular 003 de 2015. Recomendaciones para afrontar la insuficiencia de glóbulos rojos y plaquetas en la época decembrina y post decembrina: ',
+    link: 'https://www.ins.gov.co/BibliotecaDigital/Circular-003-de-2015.pdf',
   },
   {
     referencia:
-      'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+      'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Promoción de la donación voluntaria y habitual de sangre como impacto en la seguridad transfusional de 2011.',
     link:
-      'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+      'https://www.ins.gov.co/BibliotecaDigital/promocion-donacion-sangre-como-impacto-en-seguridad-transfusional.pdf,',
   },
   {
     referencia:
-      'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+      'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Mecanismos de respuesta de la Red Nacional de Bancos de Sangre y Servicios de Transfusión ante situaciones de riesgo de desastre, emergencia y desastre en Colombia de 2019',
     link:
-      'https://www.harpersbazaar.mx/belleza/salud-y-bienestar/la-ropa-que-eliges-afecta-a-tu-estado-de-animo-y-cerebro-segun-expertos/',
+      'https://www.ins.gov.co/BibliotecaDigital/mecanismos-de-respuesta-red-bancos-de-sangre-y-servicios-de-transfusion-ante-situaciones-de-emergencia.pdf',
   },
   {
     referencia:
-      'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Colecta de sangre en puestos móviles.',
     link:
-      'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+      'https://www.ins.gov.co/BibliotecaDigital/colecta-de-sangre-en-puestos-moviles.pdf',
   },
   {
     referencia:
-      'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+      'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Estrategias asociadas a promoción de la donación de sangre de 2018. ',
     link:
-      'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000063748',
+      'https://www.ins.gov.co/BibliotecaDigital/estrategias-asociadas-a-promocion-de-la-donacion-de-sangre.pdf',
   },
   {
     referencia:
-      'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Notificación de tres casos de infección transmitida por transfusión (ITT) - Virus de Inmunodeficiencia Humana (VIH) de 2019.',
     link:
-      'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+      'https://www.ins.gov.co/BibliotecaDigital/notificacion-casos-infeccion-transmitida-por-transfusion-virus-inmunodeficiencia-humana.pdf',
   },
   {
     referencia:
-      'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+      'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Resumen casos de donación coaccionada 2016.',
     link:
-      'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+      'https://www.ins.gov.co/BibliotecaDigital/resumen-casos-donacion-coaccionada-2016.pdf',
   },
   {
     referencia:
-      'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      'Instituto Nacional de Salud – INS. (2020). Circular 001 de 2006. Donación voluntaria y altruista de sangre',
+    link: 'https://www.ins.gov.co/BibliotecaDigital/Circular-001-de-2006.pdf',
+  },
+  {
+    referencia:
+      'Instituto Nacional de Salud – INS. (2020). Lineamiento Promoción de la donación de sangre y componentes anatómicos de 2019.',
     link:
-      'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      'https://www.ins.gov.co/BibliotecaDigital/promocion-donacion-sangre-y-componentes-anatomicos.pdf',
+  },
+  {
+    referencia:
+      'Instituto Nacional de Salud – INS. (2020). Lineamiento Selección de donantes de sangre de 2018. ',
+    link:
+      'https://www.ins.gov.co/BibliotecaDigital/seleccion-donantes-2018.pdf',
+  },
+  {
+    referencia:
+      'Ministerio de Salud (2020, 25 de noviembre). Decreto 1571 de 1993. Por el cual se reglamenta parcialmente el título IX de la Ley 09 de 1979, en cuanto a funcionamiento de establecimientos dedicados a la extracción, procesamiento, conservación y transporte de sangre total o de sus hemoderivados, se crean la red nacional de bancos de sangre y el consejo nacional de bancos de sangre y se dictan otras disposiciones sobre la materia',
+    link: 'https://www.ins.gov.co/BibliotecaDigital/Decreto-1571-de-1993.pdf',
+  },
+  {
+    referencia:
+      'Ministerio de Salud. (2020). Resolución 0901 de 1996. Manual de normas técnicas, administrativas y de procedimientos en bancos de sangre.',
+    link:
+      'https://www.ins.gov.co/BibliotecaDigital/Resolucion-0901-de-1996.pdf',
+  },
+  {
+    referencia:
+      'Organización Panamericana de Salud – OPS. (2013). Estándar de trabajo para servicios de sangre. Organización Panamericana de Salud.',
+    link: '',
   },
 ]
 
 export const glosario = [
   {
-    termino: 'MoodBoard',
+    termino: 'Banco de sangre',
     significado:
-      'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      'Establecimiento o dependencia con licencia sanitaria de funcionamiento para adelantar actividades relacionadas con la obtención, procesamiento y almacenamiento de sangre humana destinada a la transfusión de la sangre total o en componentes separados, a procedimientos de aféresis y a otros procedimientos preventivos, terapéuticos y de investigación. Tiene como uno de sus propósitos asegurar la calidad de la sangre y sus derivados.',
   },
   {
-    termino: 'Suftware',
+    termino: 'Donante de sangre',
     significado:
-      'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      'Persona que, previo el cumplimiento de los requisitos, da, sin retribución económica y a título gratuito y para fines preventivos, terapéuticos, de diagnóstico o de investigación, una porción de su sangre en forma voluntaria, libre y consciente.',
   },
   {
-    termino: 'Pirognóstico',
+    termino: 'Red Nacional de Bancos de Sangre',
     significado:
-      'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      'Sistema de coordinación técnico, administrativo y asistencial que permiten desarrollar, organizar, supervisar y evaluar, con el propósito de garantizar el suministro suficiente, oportuno y seguro de la sangre y sus hemoderivados en el territorio nacional.',
   },
   {
-    termino: 'Vectores',
+    termino: 'Hemocomponente',
     significado:
-      'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      'Parte que se obtiene mediante la separación de una unidad de sangre total, utilizando medios físicos o mecánicos, tales como sedimentación, centrifugación, congelación o filtración.',
   },
   {
-    termino: 'Moda',
+    termino: 'Promoción de la donación de sangre',
     significado:
-      'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      'Acciones de información, sensibilización y educación sobre la donación de sangre y conductas de autocuidado ofrecidas por el personal de los bancos de sangre a la población en general, con el objetivo de generar cultura de donación y cuyo mensaje va enfocado a obtener sangre y hemocomponentes provenientes de personas que tienen un bajo riesgo de transmitir infecciones, además de contar con una provisión de sangre disponible para atender las demandas transfusionales de las diferentes instituciones hospitalarias; así mismo, pretende fortalecer la responsabilidad social en los ciudadanos y las acciones en salud pública, que conlleven a que el sistema transfusional sea eficaz y eficiente..',
   },
   {
-    termino: 'Diseño',
+    termino: 'Donante voluntario',
     significado:
-      'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      'Persona que dona sangre o componentes por su propia voluntad y no recibe ningún pago, ya sea en forma de dinero en efectivo o en especie que podría ser considerado un sustituto del dinero. Esto incluiría el tiempo fuera del trabajo que no sea razonablemente necesario para la donación y el viaje. Pequeños suvenires, refrigerios y reembolsos de los gastos directos asociados al viaje/transportación son compatibles con este tipo de donación',
   },
   {
-    termino: 'Tipología',
+    termino: 'Donante voluntario habitual, repetitiva / de repetición:',
     significado:
-      'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+      'Persona que dona sangre o componentes por lo menos 2 veces en los últimos 12 meses, por su propia voluntad y no recibe ningún pago, ya sea en forma de dinero en efectivo o en especie que podría ser considerado un sustituto del dinero.',
   },
   {
-    termino: 'Bidimensional',
+    termino: 'Donante coaccionado o por reposición',
     significado:
-      'que se representa según su altura y su anchura y no su profundidad.',
-  },
-  {
-    termino: 'Software',
-    significado:
-      'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      'Persona que dona sangre o componentes, previo proceso de sensibilización y educación, cuando es requerida por un miembro de su familia o comunidad sin que haya exigencia de por medio para la prestación del servicio.',
   },
 ]
 
@@ -462,24 +301,28 @@ export const complementario = [
   },
   {
     texto:
-      'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-    tipo: 'Página web',
-    link: 'https://www.google.com/',
+      'Organización Panamericana de la salud (2002). Curso de gestión de calidad para servicios de sangre. OPS.',
+    tipo: 'Libro',
+    link:
+      'https://www.paho.org/hq/dmdocuments/2010/OPS-Curso-Gestion-Calidad-Sangre-2002.pdf',
   },
   {
     texto:
-      'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-    tipo: 'Artículo científico',
-    link: 'https://www.google.com/',
+      'Organización Panamericana de la Salud. (2005). Manual hagamos la diferencia. OPS.',
+    tipo: 'Manual',
+    link:
+      'https://iris.paho.org/bitstream/handle/10665.2/31336/Hagamosdiferencia-spa.pdf?sequence=1&isAllowed=y',
   },
   {
-    texto: 'Economía de Rosquilla. (s.f.).',
-    tipo: 'Página web',
-    link: 'https://www.google.com/',
+    texto:
+      'Organización Mundial de la Salud. (2005). Propuesta para el establecimiento del Día Mundial del Donante de Sangre. OPS.',
+    tipo: 'Orden',
+    link: 'https://www.who.int/bloodsafety/WHA58_13-sp.pdf',
   },
   {
-    texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-    tipo: 'Video',
-    link: 'https://www.google.com/',
+    texto:
+      'Organización Panamericana de la Salud. (2006). Guía metodológica para educadores comunitarios. OPS',
+    tipo: 'Guía',
+    link: 'https://www.paho.org/hq/dmdocuments/2009/Dadores_de_vida.pdf',
   },
 ]

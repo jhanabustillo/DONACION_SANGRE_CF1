@@ -37,12 +37,13 @@
         p Teniendo en cuenta que la promoción de la donación de sangre ha sido catalogada internacionalmente como el pilar fundamental de la seguridad transfusional, <b>quienes desempeñen esta labor deben conocer los aspectos normativos y así contribuir con el fortalecimiento de la salud pública del país.</b>
 
     p.mt-5 En Colombia, los criterios normativos en promoción de la donación de sangre, van desde decretos hasta boletines técnicos, los cuales se tratarán en el presente componente. 
+    
+    .row.justify-content-center.align-items-center
+            .col-auto
+              
+            img.img-responsive.mt-3(src='@/assets/curso/images/pages/ilustraciones/info.jpg')
 
-    .video.mb-5.mt-5
-        iframe(width="560" height="280" src="https://www.youtube.com/embed/YXT2HTjiB3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
-    #t_1_1.h4 1.1 Decreto 1571 de 1993
+    #t_1_1.h4.mt-3 1.1 Decreto 1571 de 1993
     .titulo-segundo
     
     p.mb-5 El Decreto 1571 de 1993 es la norma que rige a los bancos de sangre y servicios de transfusión en Colombia, y ha definido al donante de sangre como:
@@ -386,25 +387,55 @@
         p Este lineamiento tiene como finalidad manifestar a los actores de la red que <b> la promoción de la donación tiene una relevancia técnica en la seguridad transfusional </b> y que, por lo tanto, se requiere de la generación de acciones para su fortalecimiento.
         br
         p Es por esto que el <b> Instituto Nacional de Salud da a conocer a los actores de la red las recomendaciones a tener en cuenta en la promoción de la donación voluntaria </b> y habitual de sangre, para lo cual los bancos de sangre deberán tener en cuenta lo siguiente: 
-    
-    .row.justify-content-center.align-items-center
-            .col-auto
-              
-            img.img-responsive.mt-3(src='@/assets/curso/images/pages/ilustraciones/ico_15.svg')
 
-            .col-auto 
-            img.img-responsive.mt-5(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+    TabsA.img-jumbotron-padding-1
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="1")
+        h4 1
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_16.svg' alt="", style="width:100px; display:block; margin:auto 0;").img-float
+          .col-xl-7
+            p La promoción se debe realizar con el propósito de captar donantes habituales: el donante habitual es aquella persona que dona dos veces en doce meses, aunque la frecuencia de donación es importante, no se puede dejar a un lado que esta persona, además, debe ser consciente de que sus conductas de vida no generan riesgo alguno en quien reciba la sangre donada.
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="2")
+        h4 2
+        .row
+          .col-xl-6.mb-4
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+          .col-xl-6
+            p Contar con personal capacitado y con experiencia en promoción y colecta, que emplee un lenguaje sencillo en el abordaje al donante, de la misma manera como se evidencia previamente que una persona esté capacitada para ejercer labores en inmunohematología, inmunosoderología, etc., el director del banco de sangre al ser responsable de todos los actos técnicos, científicos y administrativos, debe verificar que quien realice funciones de promoción esté debidamente entrenado y capacitado, antes de salir a trabajo de campo. 
+        
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="3")
+        h4 3
+        p Contar con los insumos y la logística necesaria para la realización de colectas de sangre: el grupo de promoción debe contar con material lúdico de apoyo, para facilitar la emisión del mensaje.
+      
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="4")
+        h4 4
+        p Garantizar que tanto en las campañas como en el banco de sangre se brinde la misma información al donante potencial. 
+      
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="5")
+        h4 5
+        p Tener procedimientos y registros documentados: el área de promoción debe contar con un procedimiento en el cual se estandaricen las actividades a desarrollar, de tal manera que quienes ejerzan dicha labor lo hagan de la misma manera, así mismo se deben generar <b> registros que permitan evidenciar la trazabilidad de las acciones ejecutadas,</b> además, dicha información servirá para la toma de decisiones.
+      
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="6")
+        h4 6
+        p 6.	Evaluar de manera sistemática mediante verificación y auditorías los procedimientos y la gestión en promoción y colecta: se requiere la realización de auditorías con el fin de identificar aquellos aspectos que requieren acciones de mejora.  
 
-    .jumbotron-2.mt-2
-        .row.justify-content-center.align-items-center
-          .col-auto
-              img.number(src='@/assets/curso/images/pages/ilustraciones/ico_16.svg' alt="", style="width:150px; display:block; margin:auto 0;").img-float  
-          .col
-              p Tener procedimientos y registros documentados: el área de promoción debe contar con un procedimiento en el cual se estandaricen las actividades a desarrollar, de tal manera que quienes ejerzan dicha labor lo hagan de la misma manera, así mismo se deben generar <b> registros que permitan evidenciar la trazabilidad de las acciones ejecutadas,</b> además, dicha información servirá para la toma de decisiones.
-    .col-auto 
-      img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="7")
+        h4 7
+        p Realizar seguimiento permanente al indicador de donantes voluntarios y habituales de sangre, así como a la positividad o casos de VIH, hepatitis por cada 10.000 donaciones de sangre y por tipo de donante; todo promotor debe basar su actuar en una revisión y análisis previo de los indicadores.
+  
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="8")
+        h4 8
+        p Otorgar el carné de donante de sangre que tiene como único fin confirmar el grupo sanguíneo, recordación de la próxima donación y reconocimiento social.
 
-      .h5.mt-5 1.5.2. Resumen casos de donación coaccionada 2016 (INS, 2020) 
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="9")
+        h4 9
+        p Contar con clubes de donantes de grupos sanguíneos poco frecuentes: esto permite contar con donantes frecuentemente informados y dispuestos a donar cuando sea necesario. 
+
+    .h5 1.5.2. Resumen casos de donación coaccionada 2016 (INS, 2020) 
 
         p.mt-3 La donación coaccionada, familiar o de reposición ha sido considerada como de <b> alto riesgo para la transmisión de infecciones a los pacientes a través de la transfusión,</b> pues a dichos donantes se les invita a donar sin brindarles la información previa necesaria y bajo condiciones como las que se describen a continuación:
 
@@ -440,6 +471,43 @@
           p.mt-5 El Instituto Nacional de Salud (INS) establece los lineamientos para <b> optimizar los mecanismos de respuesta de la Red Nacional de Bancos de Sangre y Servicios de Transfusión ante situaciones críticas de desabastecimiento de sangre y hemocomponentes </b> a nivel nacional, departamental y local (desastres naturales, eventos públicos que concentran gran número de personas, situación social de conflicto que pueda generar alto número de pacientes, entre otros); <b>protegiendo la sangre como un bien de interés público social y garantizando el fortalecimiento de la seguridad transfusional</b> bajo los principios de acceso, equidad, solidaridad y seguridad.
 
           p.mt-3 Por lo tanto, establece las actividades que deben realizar los actores de la red para responder efectivamente ante una alerta ocasionada por riesgo de desastre, emergencia o desastre, entre las cuales están:
+
+    TabsB.mt-5
+      .py-4.py-md-5(titulo="Ministerio de Salud y Protección Socia")
+        .row
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_1.svg',  alt="", style="width:150px; display:block; margin:auto 6rem;")
+          .col-md-4
+              p #[strong 1: ]
+              p.mb-0 El Centro Regulador de Urgencias y Emergencias (CRUE) Nacional se considera como la fuente oficial para generar alertas con el desabastecimiento de hemocomponentes.
+      .py-4.py-md-5(titulo="Instituto Nacional de Salud")
+        .row
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_1.svg',  alt="", style="width:150px; display:block; margin:auto 6rem;")
+          .col-md-4
+            p #[strong 2:] 
+            p.mb-0 Responsable de monitorear el comportamiento de los bancos de sangre. Así mismo debe identificar la disponibilidad de hemocomponentes en los bancos de sangre priorizados para generar respuesta (por tamaño, o cercanía geográfica), a través del Sistema de información en Hemovigilancia Sihevi-INS©. También es el encargado de establecer los mecanismos de comunicación con los bancos de sangre que prestaran el apoyo requerido.
+      .py-4.py-md-5(titulo="Direcciones territoriales")
+        .row
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_1.svg',  alt="", style="width:150px; display:block; margin:auto 6rem;")
+          .col-md-4
+            p #[strong 3:] 
+            p.mb-0 Monitorear de manera constante el comportamiento de demanda y abastecimiento de hemocomponentes en su área de influencia, a través del Sistema de información en Hemovigilancia Sihevi-INS©. Así mismo, identificar los bancos de sangre proveedores en cada una de las IPS que transfunden.
+      .py-4.py-md-5(titulo="Bancos de Sangre y Servicios de Transfusión")
+        .row
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/images/pages/ilustraciones/ico_1.svg',  alt="", style="width:150px; display:block; margin:auto 6rem;")
+          .col-md-6
+            p #[strong 4:] 
+            p.mb-0 mantener actualizada su información en Sihevi-INS© respecto a captación, transfusión, satisfacción a la demanda, proveedores de hemocomponentes, disponibilidad de sangre y demás variables que atañen a su gestión, ya que es la fuente oficial para monitorear la capacidad de respuesta desde el INS, como Coordinador Nacional de la Red.
+            br
+            p También deben contar con un procedimiento para establecer los inventarios de hemocomponentes, de acuerdo con sus necesidades diarias, procurando además contar con un excedente en el suministro que logre atender las necesidades que se presenten durante tres (3) días, como mínimo. Este criterio requiere de una estricta labor por parte del grupo de colecta, en donde se encuentra incluido el grupo de promoción.
+
 
         .row.justify-content-center.align-items-center.mt-3      
         .col-auto 
@@ -482,18 +550,69 @@
           span.etiqueta--verde Previamente a la jornada de donación
           p.mt-3 Este tipo de información le permite al promotor tomar decisiones adecuadas sobre el número de unidades a colectar y así definir las jornadas a realizar. También permite que el promotor pueda observar a través del tipo de donante captado y de las tasas de positividad, si realmente las estrategias educativas implementadas están conllevando a la captación donantes con una probabilidad baja de tener alguna infección. 
 
+      .row(titulo="Gestión de donantes")
+        .col.mb-4.mb-md-0
+          p.mt-3 Es importante que el promotor realice las jornadas de donación en poblaciones consideradas con bajo riesgo de infección.
+          br
+          p Así mismo, las personas deben ser debidamente informadas para que puedan tomar una decisión consciente, responsable y madura de donar su sangre, por lo tanto, los promotores siempre deben contar con estrategias que conlleven a la cultura de donación.
+          br
+          p El grupo de promoción debe estar atento a realizar actividades que permitan convocar a donar a quienes ya lo han hecho previamente.
+
+      .row(titulo="Talento humano")
+        .col.mb-4.mb-md-0
+          
+          p.mt-3 Estimar el número de personas designadas para cada jornada de donación 
+      .row(titulo="Infraestructura")
+        .col.mb-4.mb-md-0
+          
+          p.mt-3 Gestionar los trámites necesarios para adquirir las autorizaciones de ubicación del equipamiento y grupo de colecta de sangre.
+          br
+          p Las áreas que vayan a ser utilizadas para diligenciamiento de la encuesta, valoración clínica y entrevista deben cumplir con condiciones de privacidad, es decir, que sean individuales e independientes en donde el donante perciba un ambiente de confidencialidad. 
+          br
+          p Tener en cuenta las características de ventilación y control de temperatura adecuados en el que se va a ubicar el puesto móvil, rango que estará entre 15 °C a 24°C, de acuerdo con el clima de la zona del país en donde se esté realizando la colecta de sangre, para así controlar las condiciones de temperatura y evitar eventos adversos. Para el cumplimiento de dichos parámetros, dentro del equipamiento de la colecta móvil de sangre, se contará con dispositivos que permitan la regulación de la temperatura ambiente.
+
       .row(titulo="Sistema de Gestión de Calidad")
         .col.mb-4.mb-md-0
+          
+          p.mt-3 diligenciar todos los documentos relacionados con la realización de la campaña y análisis posterior a la misma. Así mismo, realizar consulta sistemática y oportuna de manuales, procedimientos e instructivos relacionados con la colecta de sangre en puestos móviles.
+          br
+          p Los promotores deben contar con procesos de inducción y capacitación sistemática.
+
+      .row(titulo="Equipos, materiales e insumos")
+        .col.mb-4.mb-md-0
+          
+          p.mt-3 Según sea el caso, se debe realizar el alistamiento de: carpas o unidad móvil, camillas, equipos electrónicos, ya sean computadores, tabletas o celulares, puntos de acceso a internet, equipos de refrigeración, papelería, material informativo sobre la donación, insumos necesarios para la colecta y mantenimiento de la sangre en condiciones óptimas de conservación.
+      .row(titulo="Talento humano")
+        .col.mb-4.mb-md-0
+          
+          p.mt-3 El personal que realice la promoción debe estar debidamente entrenado y con la capacidad para emitir respuestas, según las necesidades de información de los donantes.
+      .row(titulo="Talento humano")
+        .col.mb-4.mb-md-0
           span.etiqueta--verde Durante jornada de donación 
+          p.mt-3 Estimar el número de personas designadas para cada jornada de donación 
+      .row(titulo="Sistema Gestión de Calidad")
+        .col.mb-4.mb-md-0
           p.mt-3 Documentar dentro de los procesos de captación, selección y donación, los procedimientos y actividades realizadas. Registrar cada actividad en los formatos establecidos, de tal manera que se pueda observar la trazabilidad del proceso de promoción.
-      .row(titulo="Sistema Gestión de Calidad y Revisión de indicadores")
+      .row(titulo="Infraestructura")
+        .col.mb-4.mb-md-0
+          p.mt-3 En las colectas móviles se debe primar porque las condiciones de infraestructura sean similares a las de la sede central del banco de sangre, así como las condiciones de limpieza, aseo y desinfección.
+      .row(titulo="Materiales y equipos")
+        .col.mb-4.mb-md-0
+          p.mt-3 Disponer de recursos y material lúdico para informar, sensibilizar y educar a los donantes de sangre, profundizando en conceptos que les permitan autoexcluirse al considerar que sus conductas de vida son de alto riesgo para transmitir infecciones a través de la sangre.
+          br
+          P Para la extracción de sangre en climas clasificados como cálidos (temperatura superior a 23 °C) y templados (temperatura 15 °C y 23°C), se debe disponer de dispositivos que regulen la temperatura ambiente en un rango entre 15 °C y 24 °C, con el fin de disminuir el riesgo de Reacciones Adversas a la Donación (RAD). 
+      .row(titulo="Talento humano")
         .col.mb-4.mb-md-0
           span.etiqueta--verde Posterior a la jornada de donación
+          p.mt-3 Se deben establecer mecanismos que permitan evidenciar los conocimientos de quienes ejercen funciones de promoción. Además de realizar jornadas de reinducción,
+      .row(titulo="Sistema Gestión de Calidad y Revisión de indicadores")
+        .col.mb-4.mb-md-0
           p.mt-3 Realizar análisis de indicadores (% donante habitual, tasas de positividad, entre otros), para establecer: acciones de mejora y proyección de metas.
           br
-          p Determinar las causas y realizar análisis y seguimiento de las RAD presentadas. Llevar a cabo ejercicios de trazabilidad que permitan verificar el cumplimiento de los lineamientos, procedimientos y actividades relacionadas con los procesos de promoción, selección de donantes y colecta, entre otros. Además, realizar análisis de encuestas de satisfacción e implementación de acciones de mejora.
+          p Determinar las causas y realizar análisis y seguimiento de las RAD presentadas. Llevar a cabo ejercicios de trazabilidad que permitan verificar el cumplimiento de los lineamientos, procedimientos y actividades relacionadas con los procesos de promoción, selección de donantes y colecta, entre otros. Además, realizar análisis de encuestas de satisfacción e implementación de acciones de mejora. 
           br
           p Se deben realizar análisis de las situaciones que se puedan presentar como no conformidades en la actividad realizada en la campaña y las personas responsables deberán documentar el análisis de la situación, las acciones a realizar para evitar la situación y el seguimiento de las recurrencias, con el fin de tomar acciones más drásticas.
+
        
     .h5.mt-5 1.5.5 Estrategias asociadas a promoción de la donación de sangre (INS, 2020)
 
@@ -545,16 +664,137 @@
             i.fas.fa-angle-right
             | Contar con una base de datos que contenga la información de contacto de los donantes habituales y con grupos sanguíneos de alta demanda.
 
+    .h5.mt-5 1.5.6 Notificación de tres casos de infección transmitida por transfusión - VIH
 
+    p.mt-3 En el boletín del INS (2020) se da a conocer un caso de hemovigilancia presentado, y en el cual se infectaron de VIH a tres pacientes menores de edad, a través de la transfusión de sangre, cuya unidad fue donada por un donante habitual.
 
+      .row.mt-5
+          .col-md-5
+            .h5.mt-2
+              <b>El promotor siempre debe enfatizar en el tipo de información que se le manifiesta a las personas previamente a que realicen la donación.</b>
+          .col
+            p.mt-2 Debido a que el donante de sangre habitual ha sido considerado como uno de los de menor riesgo de infección, este tipo de casos ponen en evidencia que el promotor siempre debe enfatizar en el tipo de información que se le manifiesta a las personas previamente a que realicen la donación, no se puede olvidar que el ser informado adecuadamente es un derecho que tienen las personas, así como la decisión que tomen posteriormente al haberse enterado de los aspectos relacionados con la donación de sangre (INS, 2020).
 
+      .col-auto.mt-5 
+        img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/img_8.png')
 
+        p.mt-5 De la misma manera, estos casos expresan la necesidad de fortalecer los criterios de selección de donantes de sangre. 
 
+      .cajon--azul.p-4.mb-5.mb-lg-0.mt-4
 
+        p.mb-0 Posterior al análisis de este caso, se pudo concluir que hay evidencia de <b> tres (3) infecciones transmitidas por transfusión de VIH, a partir de un donante que pudo ser aceptado en periodo de ventana inmunológica.</b>
+    
+      #t_1_5.h4.mt-5 1.6 Estándares de trabajo para servicios de sangre (OPS, 2020)
+        .titulo-segundo 
 
+        p.mt-2 Al ser los bancos de sangre miembros esenciales del sistema de salud, estos deben realizar su labor con calidad, conllevando a disminuir la posibilidad de que se presenten errores. 
+        br
+        p La calidad implica tener las actividades debidamente documentadas, ya que esto, no solo conlleva a que todos realicen la labor de la misma forma, sino que, además, permite que el trabajo sea más simple y sencillo, logrando una actitud positiva de quienes desarrollan cada actividad. Es decir, que esto conlleva a un mayor empoderamiento en el personal, quienes son el motor de toda organización.
 
+      .row.mt-5
+        .col-md-6
+          .col-lg-6
+          .bloque-texto-c.p-4
+        
+            .h2.mb-2 La cadena transfusional está compuesta por una serie compleja de procesos que abarcan desde el donante hasta el receptor. 
+            
+        .col-md-5.text-jumbotron-padding
+            p.mt-5 Es importante tener en cuenta que, en calidad lo que no está escrito no existe, por esta razón quienes desarrollan funciones de promoción de la donación de sangre, tienen la responsabilidad de documentar las acciones realizadas en dicha área; información que también les contribuirá en la toma de sus decisiones para fortalecer sus acciones técnicas y brindar una mayor seguridad transfusional a través del tipo de donante de sangre captado.
 
+      p.mt-5 En promoción, se requiere de un Procedimiento Operativo Estándar (POE), el cual se define ¿quién?, ¿cómo? y ¿cuándo? se deben hacer las cosas, es una documentación instructiva para realizar una actividad. Estos pueden ser modificados, por ejemplo, si se incorpora una nueva estrategia educativa para informar, sensibilizar y educar a la población sobre la donación de sangre, se lleva a cabo el ajuste en dicho documento.
+      br
+      p En promoción de la donación de sangre deben existir como mínimo los siguientes registros:
 
+    .row.mb-5.mt-5
+      .col-sm-6.col-lg-3.mb-3.mb-lg-0
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.img-float-1(src='@/assets/curso/images/pages/ilustraciones/ico_21.svg', alt="", style="width:70px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center Cronograma de capacitación
+  
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_22.svg', alt="", style="width:70px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center Cronograma de jornadas de donación
+  
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_23.svg', alt="", style="width:70px; display:block; margin:auto 1rem;").img-float 
+
+          .h6.text-center.mt-4 Sensibilización previa a la jornada de donación
+  
+      .col-sm-6.col-lg-3
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img.img-responsive(src='@/assets/curso/images/pages/ilustraciones/ico_24.svg', alt="", style="width:50px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center Datos del lugar y contacto
+    .row.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_25.svg', alt="", style="width:70px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center Lista chequeo área física desarrollo jornada.
+  
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_26.svg', alt="", style="width:80px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center Lista de chequeo materiales e insumos requeridos. 
+  
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_27.svg',alt="", style="width:70px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center.mt-4 Listado de personal y rol
+  
+      .col-sm-6.col-lg-3
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_28.svg',alt="", style="width:80px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center.mt-4 Resultados de la jornada
+
+      .col-sm-6.col-lg-3.mt-5
+        .tarjeta.tarjeta--boton.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/pages/ilustraciones/ico_29.svg',alt="", style="width:70px; display:block; margin:auto 1rem;").img-float 
+
+          .h5.text-center Club de donantes con grupos sanguíneos y datos de contacto
+            p.text-small Celular, teléfono, correo electrónico. 
+
+      p.mt-4 De la misma manera, se deberán levantar acciones preventivas y correctivas. Es de resaltar que los sistemas de gestión de calidad fueron creados con el fin de disminuir los errores, por lo tanto, <b> el ideal es que se documenten más acciones preventivas que correctivas.</b>
+
+      .cajon--azul.p-4.mb-5.mb-lg-0.mt-4
+
+        p.mb-0 Así mismo, se debe contar con una lista de chequeo que permita <b>realizar revisiones de tipo técnico para ajustar el proceso de promoción </b> y a su vez, prepararse para las auditorías, identificando las acciones de mejora a realizar. 
+
+        
 
 
 
