@@ -212,19 +212,19 @@
       .jumbotron-2.mt-5.hr
         .row.justify-content-center.align-items-center
             .col-auto
-                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_9.svg").img-fluid
+                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_9.svg", alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
             .col
                 p.mb-0  Ceñirse al programa de promoción de la donación voluntaria y habitual de sangre, que desarrolle la Secretaría de Salud Departamental quien ejerce la coordinación territorial de la Red de Sangre acorde con los lineamientos de la red nacional.
       .jumbotron-2.mt-5.hr
         .row.justify-content-center.align-items-center
             .col-auto
-                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_10.svg").img-fluid
+                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_10.svg",alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
             .col
                 p.mb-0  Destinar la sangre colectada a cubrir, en primer lugar, las necesidades previstas en el departamento donde realizan la colecta.
       .jumbotron-2.mt-5.hr
         .row.justify-content-center.align-items-center
             .col-auto
-                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_11.svg").img-fluid
+                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_11.svg", alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
             .col
                 p.mb-0   Participar en el programa local de plan territorial de emergencias y desastres de la Secretaría de Salud Departamental (INS, 2020).
 
@@ -403,55 +403,55 @@
     .jumbotron-2.mt-5.hr
         .row.justify-content-center.align-items-center
             .col-auto
-                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_9.svg").img-fluid
+                img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_9.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
             .col
                 p.mb-0  La promoción se debe realizar con el propósito de captar donantes habituales: el donante habitual es aquella persona que dona dos veces en doce meses, aunque la frecuencia de donación es importante, no se puede dejar a un lado que esta persona, además, debe ser consciente de que sus conductas de vida no generan riesgo alguno en quien reciba la sangre donada.
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_10.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_10.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0  Contar con personal capacitado y con experiencia en promoción y colecta, que emplee un lenguaje sencillo en el abordaje al donante, de la misma manera como se evidencia previamente que una persona esté capacitada para ejercer labores en inmunohematología, inmunosoderología, etc., el director del banco de sangre al ser responsable de todos los actos técnicos, científicos y administrativos, debe verificar que quien realice funciones de promoción esté debidamente entrenado y capacitado, antes de salir a trabajo de campo. 
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_11.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_11.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0  Contar con los insumos y la logística necesaria para la realización de colectas de sangre: el grupo de promoción debe contar con material lúdico de apoyo, para facilitar la emisión del mensaje.
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_31.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_31.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0  Garantizar que tanto en las campañas como en el banco de sangre se brinde la misma información al donante potencial. 
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_32.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_32.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0  Tener procedimientos y registros documentados: el área de promoción debe contar con un procedimiento en el cual se estandaricen las actividades a desarrollar, de tal manera que quienes ejerzan dicha labor lo hagan de la misma manera, así mismo se deben generar <b> registros que permitan evidenciar la trazabilidad de las acciones ejecutadas,</b> además, dicha información servirá para la toma de decisiones.
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_33.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_33.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0  Evaluar de manera sistemática mediante verificación y auditorías los procedimientos y la gestión en promoción y colecta: se requiere la realización de auditorías con el fin de identificar aquellos aspectos que requieren acciones de mejora.  
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_34.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_34.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0 Realizar seguimiento permanente al indicador de donantes voluntarios y habituales de sangre, así como a la positividad o casos de VIH, hepatitis por cada 10.000 donaciones de sangre y por tipo de donante; todo promotor debe basar su actuar en una revisión y análisis previo de los indicadores.
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_35.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_35.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0 Otorgar el carné de donante de sangre que tiene como único fin confirmar el grupo sanguíneo, recordación de la próxima donación y reconocimiento social.
     .jumbotron-2.mt-5.hr
       .row.justify-content-center.align-items-center
           .col-auto
-              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_36.svg").img-fluid
+              img.img-a.my-1(src="@/assets/curso/images/pages/ilustraciones/ico_36.svg" alt="",style="width:120px; display:block; margin:auto -2rem;").img-fluid
           .col
               p.mb-0 Contar con clubes de donantes de grupos sanguíneos poco frecuentes: esto permite contar con donantes frecuentemente informados y dispuestos a donar cuando sea necesario.
 
