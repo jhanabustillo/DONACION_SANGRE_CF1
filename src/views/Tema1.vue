@@ -597,7 +597,7 @@
           figure
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_20.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float   
         .col
-          p.mb-5 p #[strong El INS será el vocero oficial ante el Ministerio de Salud y Protección Social] #[br]Y los actores de la red de sangre para reportar la situación de disponibilidad y la oportunidad en la respuesta ante necesidades de hemocomponentes en situaciones de riesgo de desastre, emergencia o desastre en el territorio nacional
+          p.mb-5 #[strong El INS será el vocero oficial ante el Ministerio de Salud y Protección Social] #[br]Y los actores de la red de sangre para reportar la situación de disponibilidad y la oportunidad en la respuesta ante necesidades de hemocomponentes en situaciones de riesgo de desastre, emergencia o desastre en el territorio nacional
       hr 
 
     .h5.mt-5 1.5.4. Colecta de Sangre en Puestos Móviles (INS, 2020)
