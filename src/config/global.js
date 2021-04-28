@@ -109,13 +109,13 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
         nombre: 'Magda Juliana Rodríguez Rodríguez',
-        cargo: 'Experta temática',
+        cargo: 'Experta',
         centro: 'Red Nacional Bancos de Sangre y Servicio de Transfusión.',
       },
       {
