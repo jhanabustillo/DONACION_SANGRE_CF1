@@ -479,41 +479,7 @@
 
         p.mt-3 La donación coaccionada, familiar o de reposición ha sido considerada como de <b> alto riesgo para la transmisión de infecciones a los pacientes a través de la transfusión,</b> pues a dichos donantes se les invita a donar sin brindarles la información previa necesaria y bajo condiciones como las que se describen a continuación:
     
-        
-    #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
-      .carousel-indicators
-        button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 4')
-        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 5')
-      .carousel-inner
-        .carousel-item.active
-          figure
-            img(src='@/assets/curso/images/pages/ilustraciones/img_12.png', alt='Texto que describa la imagen')
-            figcaption Solicitud de donantes a los familiares y amigos de los pacientes a cambio de la prestación de servicios de salud.
-        .carousel-item
-          figure
-            img(src='@/assets/curso/images/pages/ilustraciones/img_13.png', alt='Texto que describa la imagen')
-            figcaption Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.
-        .carousel-item
-          figure
-            img(src='@/assets/curso/images/pages/ilustraciones/img_14.png', alt='Texto que describa la imagen')
-            figcaption En espera de recibir un beneficio tangible a cambio, como por ejemplo, adquirir por la donación un souvenir que le fue ofrecido antes de acceder a donar. 
-        .carousel-item
-          figure
-            img(src='@/assets/curso/images/pages/ilustraciones/img_15.png', alt='Texto que describa la imagen')
-            figcaption Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.
-        .carousel-item
-          figure
-            img(src='@/assets/curso/images/pages/ilustraciones/img_16.png', alt='Texto que describa la imagen')
-            figcaption En espera de recibir un beneficio intangible a cambio, como por ejemplo, confiar en que a través de la donación de sangre se le disminuye el colesterol, los triglicéridos, las posibilidades de tener un infarto de miocardio o un accidente cerebrovascular, condiciones que no han sido comprobadas científicamente.
-      button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
-        span.carousel-control-prev-icon(aria-hidden='true')
-        span.visually-hidden Previous
-      button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
-        span.carousel-control-next-icon(aria-hidden='true')
-        span.visually-hidden Next 
+    SlyderC.mb-5.mt-5(:datos="datosSlyderC")
           
     .jumbotron-4.mt-2
         .row.justify-content-center.align-items-center
@@ -894,7 +860,43 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    datosSlyderC: [
+      {
+        titulo: '',
+        texto:
+          'Solicitud de donantes a los familiares y amigos de los pacientes a cambio de la prestación de servicios de salud.',
+        imagen: require('@/assets/curso/images/pages/ilustraciones/img_12.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: '',
+        texto:
+          'Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.',
+        imagen: require('@/assets/curso/images/pages/ilustraciones/img_13.png'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: '',
+        texto:
+          'En espera de recibir un beneficio tangible a cambio, como por ejemplo, adquirir por la donación un souvenir que le fue ofrecido antes de acceder a donar.',
+        imagen: require('@/assets/curso/images/pages/ilustraciones/img_14.png'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: '',
+        texto:
+          'Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.',
+        imagen: require('@/assets/curso/images/pages/ilustraciones/img_15.png'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: '',
+        texto:
+          'En espera de recibir un beneficio intangible a cambio, como por ejemplo, confiar en que a través de la donación de sangre se le disminuye el colesterol, los triglicéridos, las posibilidades de tener un infarto de miocardio o un accidente cerebrovascular, condiciones que no han sido comprobadas científicamente..',
+        imagen: require('@/assets/curso/images/pages/ilustraciones/img_16.png'),
+        //leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
   }),
 }
 </script>
