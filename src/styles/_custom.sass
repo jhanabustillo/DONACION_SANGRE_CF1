@@ -6,7 +6,7 @@
 .jumbotron-1
 	padding: 1rem 1rem 
 	margin-bottom: 2rem 
-	background-color: #F2F2F2
+	background-color: #EEEEEE
 	border-radius: .3rem
 .jumbotron-2
 	padding: 2rem 1rem 
@@ -425,15 +425,13 @@
 	width: 5%
 	justify-content: center
 .banner-principal
-  .tarjeta
-    background-color: #FFB74D !important
   p
     color: #111E61 !important
   h1
     color: #111E61 !important
   img
     margin-bottom: 2rem
-  .boton
+.boton
     background-color: #FFEE58
     span
       color: #111E61 !important
@@ -446,7 +444,7 @@
     p
         display: inline-block
         margin: auto 1rem
-    .titulo-resultados
+.titulo-resultados
       width: 14rem
 .text-jumbotron-padding
 	 padding: 1rem
@@ -476,4 +474,321 @@
 	border-top: 1px solid #000
 	border-bottom: 1px solid #000
 	height: 0 
+.bloque-texto-a
+  background-color: $color-sistema-e
+  position: relative
+  &:before
+    content: ''
+    display: block
+    background-color: $color-curso-h
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 45%
+
+  & > div
+    position: relative
+
+  &__texto
+    background-color: $white
+
+  p
+    margin: 0
+
+
+.bloque-texto-b
+  position: relative
+  &:before
+    content: ''
+    display: block
+    background-color: $color-curso-h
+    top: 40%
+    bottom: 0
+    left: 35%
+    right: 0
+  & > div
+    position: relative
+  &__texto
+    &:before, &:after
+      content: ''
+      display: inline-block
+      width: 36px
+      height: 31px
+      flex-shrink: 0
+      background-image: url('../assets/componentes/icon-bloque-texto-c.svg')
+      background-repeat: no-repeat
+    &:before
+      margin-right: 15px
+      transform: rotate(180deg)
+    &:after
+      margin-left: 15px
+      align-self: flex-end
+
+
+
+.bloque-texto-c
+  background-color: $color-curso-h
+
+  &:before, &:after
+    content: ''
+    display: block
+
+  &:before
+    width: 36px
+    height: 36px
+    background-image: url('../assets/componentes/icon-bloque-texto-c.svg')
+    background-repeat: no-repeat
+  
+  &:after
+    width: 30px
+    height: 30px
+    background-color: $color-curso-b
+    position: relative
+    left: calc(100% - 30px)
+.tarjeta
+  border-radius: 20px
+
+  &--container
+    // display: flex
+    & > .tarjeta
+      border-radius: 0
+      &:first-child
+        border-top-left-radius: 20px
+        border-bottom-left-radius: 20px
+      &:last-child
+        border-top-right-radius: 20px
+        border-bottom-right-radius: 20px
+    
+
+  &--blanca
+    background-color: $white
+
+  &--azul
+    background-color: $color-sistema-e
+
+  &--roja
+    background-color: $color-curso-b
+    *
+      color: $white
+    
+  &--roja-1
+    background-color: $color-curso-i
+    *
+      color: $white
+
+  &--amarilla
+    background-color: $color-curso-c
+
+    &--borde
+      background-color: lighten($color-curso-c, 40%)
+      border: solid 4px $color-curso-c
+
+  &--morada
+    background-color: $color-curso-a
+    *
+      color: $white
+
+  &--boton
+    background-color: $color-sistema-h
+    cursor: pointer
+    transition: background-color 0.3s ease-in-out 
+
+    &:active, &:focus, &:hover
+      background-color: $color-curso-b
+      *
+        color: $white
+        
+  &--tabla
+    background-color: $color-sistema-e
+    &:nth-child(even)
+      background-color: $color-sistema-g
+
+  
+  
+  
+// TARJETAS CON AVATAR
+.tarjeta-Avatar
+  height: 100%
+  img
+    display: block
+    width: 40%
+    margin: 0 auto
+
+  .tarjeta
+    padding-top: 60px !important
+    margin-top: -50px
+    height: calc(100% - 50px)
+
+.h1, .h2, .h3, .h4, .h5, .h6
+  font-family: $heading-font-family
+  font-weight: $heading-font-weight
+  line-height: $heading-line-height
+  margin: 0 0 $small-spacing
+  color: $heading-color
+  
+.h1
+  font-size: $h1-font-size
+.h2
+  font-size: $h2-font-size
+.h3
+  font-size: $h3-font-size
+.h4
+  font-size: $h4-font-size
+.h5
+  font-size: $h5-font-size
+.h6
+  font-size: $h6-font-size
+
+.text-small
+  font-size: 0.8em
+
+.text-thin
+  font-weight: $base-thin-font-weight
+
+.text-bold
+  font-weight: $base-bold-font-weight
+
+.text-black
+  font-weight: $base-black-font-weight
+
+.text-center
+  text-align: center
+
+.titulo-principal
+  border-bottom: solid 3px $color-sistema-f
+  margin-bottom: 30px
+  padding-bottom: 20px
+  display: flex
+  align-items: center
+  h3, .h3
+    margin-bottom: 0
+  &__numero
+    width: 45px
+    height: 45px
+    background-color: $color-curso-b
+    margin-right: 15px
+    position: relative
+
+    .h3
+      color: $white
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+
+.titulo-segundo
+  margin-bottom: 20px
+  .h4
+    margin-bottom: 10px
+
+  &:after
+    content: ''
+    display: block
+    height: 3px
+    width: 140px
+    border-left: solid 50px $color-curso-b
+    background-color: $color-sistema-f
+
+
+.etiqueta
+  padding: 2px 6px 5px
+  margin-right: 5px
+  &--verde
+    @extend .etiqueta
+    color: $white
+    background-color: $color-curso-e
+  &--roja
+    @extend .etiqueta
+    color: $white
+    background-color: $color-curso-f
+  &--green
+    color: $color-curso-e
+
+.cajon
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &--red
+    @extend .cajon
+    background-color: #E23445
+    &:before
+      background-color: $color-curso-f
+
+  &--azul
+    @extend .cajon
+    background-color: #F2F2F2
+    &:before
+      background-color: $color-curso-e
+
+  &--rojo
+    @extend .cajon
+    background-color: #F2F2F2
+    &:before
+      background-color: $color-curso-b
+
+.lista-ol
+  li
+    margin-bottom: 10px
+
+  &--separador
+    li
+      padding-bottom: 15px
+      margin-bottom: 15px
+      border-bottom: solid 1px $color-sistema-c
+      &:last-child
+        padding-bottom: 0
+        border-bottom: none
+        
+  &--cuadro
+    @extend .lista-ol
+    li
+      display: flex
+    &__vineta
+      background-color: $color-curso-b
+      display: inline-block
+      width: 24px
+      height: 24px
+      color: $white
+      position: relative
+      margin-right: 8px
+      
+      span
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        line-height: 1em
+
+.lista-ul
+  @extend .lista-ol
+  &--separador
+    @extend .lista-ul
+    @extend .lista-ol--separador
+  i
+    margin-right: 7px
+  li
+    ul
+      padding-left: 15px
+      .lista-ul__vineta
+        &:before
+          content: '- '
+  &__vineta
+    &:before
+      content: '• '
+      line-height: 1em
+
+  &--color
+    @extend .lista-ul
+    i
+      color: $color-curso-b
+.tarjeta-accion
+	color: #E8F0F8
 
