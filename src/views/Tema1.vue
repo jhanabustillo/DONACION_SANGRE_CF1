@@ -416,14 +416,14 @@
           figure
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico1.svg' alt="", style="width:60px; display:block; margin:auto 0;").img-float    
         .col
-          p.mb-5 La promoción se debe realizar con el propósito de captar donantes habituales: el donante habitual es aquella persona que dona dos veces en doce meses, aunque la frecuencia de donación es importante, no se puede dejar a un lado que esta persona, además, debe ser consciente de que sus conductas de vida no generan riesgo alguno en quien reciba la sangre donada.
+          p.mb-3 La promoción se debe realizar con el propósito de captar donantes habituales: el donante habitual es aquella persona que dona dos veces en doce meses, aunque la frecuencia de donación es importante, no se puede dejar a un lado que esta persona, además, debe ser consciente de que sus conductas de vida no generan riesgo alguno en quien reciba la sangre donada.
       hr
       .row.align-items-center.mt-3
         .col-auto
           figure
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico2.svg' alt="", style="width:60px; display:block; margin:auto 0;").img-float     
         .col
-          p.mb-5 Contar con personal capacitado y con experiencia en promoción y colecta, que emplee un lenguaje sencillo en el abordaje al donante, de la misma manera como se evidencia previamente que una persona esté capacitada para ejercer labores en inmunohematología, inmunosoderología, etc., el director del banco de sangre al ser responsable de todos los actos técnicos, científicos y administrativos, debe verificar que quien realice funciones de promoción esté debidamente entrenado y capacitado, antes de salir a trabajo de campo. 
+          p.mb-2 Contar con personal capacitado y con experiencia en promoción y colecta, que emplee un lenguaje sencillo en el abordaje al donante, de la misma manera como se evidencia previamente que una persona esté capacitada para ejercer labores en inmunohematología, inmunosoderología, etc., el director del banco de sangre al ser responsable de todos los actos técnicos, científicos y administrativos, debe verificar que quien realice funciones de promoción esté debidamente entrenado y capacitado, antes de salir a trabajo de campo. 
       hr
       .row.align-items-center.mt-3
         .col-auto
@@ -437,14 +437,14 @@
           figur
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_31.svg' alt="", style="width:60px; display:block; margin:auto 0;").img-float   
         .col
-          p.mb-5 Garantizar que tanto en las campañas como en el banco de sangre se brinde la misma información al donante potencial.
+          p.mb-5.mt-4 Garantizar que tanto en las campañas como en el banco de sangre se brinde la misma información al donante potencial.
       hr
       .row.align-items-center.mt-3
         .col-auto
           figure
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_32.svg' alt="", style="width:60px; display:block; margin:auto 0;").img-float     
         .col
-          p.mb-5 Tener procedimientos y registros documentados: el área de promoción debe contar con un procedimiento en el cual se estandaricen las actividades a desarrollar, de tal manera que quienes ejerzan dicha labor lo hagan de la misma manera, así mismo se deben generar <b> registros que permitan evidenciar la trazabilidad de las acciones ejecutadas,</b> además, dicha información servirá para la toma de decisiones.  
+          p.mb-5.mt-2 Tener procedimientos y registros documentados: el área de promoción debe contar con un procedimiento en el cual se estandaricen las actividades a desarrollar, de tal manera que quienes ejerzan dicha labor lo hagan de la misma manera, así mismo se deben generar <b> registros que permitan evidenciar la trazabilidad de las acciones ejecutadas,</b> además, dicha información servirá para la toma de decisiones.  
       hr
       .row.align-items-center.mt-3
         .col-auto
@@ -472,7 +472,7 @@
           figure
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_36.svg' alt="", style="width:60px; display:block; margin:auto 0;").img-float     
         .col
-          p.mb-5 Contar con clubes de donantes de grupos sanguíneos poco frecuentes: esto permite contar con donantes frecuentemente informados y dispuestos a donar cuando sea necesario.
+          p.mb-5.mt-3 Contar con clubes de donantes de grupos sanguíneos poco frecuentes: esto permite contar con donantes frecuentemente informados y dispuestos a donar cuando sea necesario.
       hr
 
     .h5.mt-5 1.5.2. Resumen casos de donación coaccionada 2016 (INS, 2020) 
