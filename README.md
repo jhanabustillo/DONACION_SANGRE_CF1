@@ -1,8 +1,8 @@
-# **sena-base-2021 v2.1.0**
+# **Normatividad en promoción de la donación de sangre**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/DONACION_SANGRE_CF1/](https://ecored-sena.github.io/DONACION_SANGRE_CF1)
 
 #
 
