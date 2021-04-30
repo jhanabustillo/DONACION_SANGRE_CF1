@@ -53,6 +53,28 @@ div
 
   #t_1_3.h4 Bloques de texto destacado
 
+  p.mb-3 Su función principal es destacar bloques de información importantes a través de recursos gráficos (imágenes y/o texto). 
+
+  ul.lista-ul.mb-3
+    li 
+      i.lista-ul__vineta
+      | Texto
+    li 
+      i.lista-ul__vineta
+      | Cita o Referencia
+    li 
+      i.lista-ul__vineta
+      | Imagen + Texto
+
+  .h5 Requerimientos de información: 
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Información precisa, que reporten notoriedad, tips, conceptos o definiciones.
+    li 
+      i.lista-ul__vineta
+      | Se sugiere una cantidad de texto igual o menor a 4 líneas de word tamaño carta.
+
   .bloque-texto-a.p-4.p-md-5.mb-5
     .row.m-0.align-items-center.justify-content-between
       .col-lg-4.mb-4.mb-lg-0
@@ -76,7 +98,7 @@ div
   .row.mb-5
     .col-lg-6.mb-5.mb-lg-0
       .bloque-texto-e.p-4
-        .h5.text-bold.bloque-texto-e__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada.
+        .h5.text-regular.bloque-texto-e__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada.
         .row.align-items-end
           .col
             .bloque-texto-e__autor 
@@ -87,14 +109,14 @@ div
 
     .col-lg-6
       .bloque-texto-d.p-4
-        .h5.text-bold.bloque-texto-d__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.
+        .h5.text-regular.bloque-texto-d__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.
         .bloque-texto-d__autor 
           .h5.mb-0 The graphic designer
           .h6.mb-0 Lorem ipsum dolor sit amet
 
   .bloque-texto-f.pt-4.px-5.mb-5
     .bloque-texto-f__comillas
-    .h5.text-bold.bloque-texto-f__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.
+    .h5.text-regular.bloque-texto-f__texto Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.
     .bloque-texto-f__autor.mb-3
       .h5.mb-0 The graphic designer
     .bloque-texto-f__avatar
@@ -104,6 +126,36 @@ div
 
   hr
   #t_1_4.h4 Listas
+
+  p.mb-3 Se debe tener en cuenta que las personas realizan un escaneo del mismo para encontrar elementos de su interés. Las listas deben estar compuestas por elementos relacionados entre sí, con un orden específico o un conteo importante. 
+  
+  ul.lista-ul.mb-3
+    li 
+      i.lista-ul__vineta
+      | Texto
+    li 
+      i.lista-ul__vineta
+      | Cita o Referencia
+    li 
+      i.lista-ul__vineta
+      | Imagen + Texto
+
+  .h5 Requerimientos de información:
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Título conciso y claro.
+    li 
+      i.lista-ul__vineta
+      | Si el texto del item es largo, la extensión máxima será de cuatro líneas en word tamaño carta. 
+    li 
+      i.lista-ul__vineta
+      | Enfatizar ciertos puntos diferenciándolos del resto del texto.
+    li 
+      i.lista-ul__vineta
+      | Cuando desee comunicar un procedimiento paso por paso y cuando el orden de los elementos sea necesario.
+
   .h5 Listado ordenado
   .row.mb-5
     .col-md.mb-5.mb-sm-0
@@ -366,6 +418,13 @@ div
   hr
 
   #t_1_5.h4 Tablas
+  .h5 Requerimientos de información
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Se requiere que la información contenida dentro de las tablas propuestas en los materiales, se encuentre digitalizada únicamente en formato excel. 
+
   .tabla-a.mb-5 
     table
       caption Leyenda de la tabla
@@ -509,6 +568,21 @@ div
 
   #t_1_9.h4 Slyders
 
+  p.mb-3 Es una sección dinámica que permite mostrar varios contenidos repartidos en diapositivas, su función principal es mostrar el contenido más importante de manera concisa y con la menor cantidad de texto posible, haciendo uso extensivo de imágenes o íconos de acompañamiento.
+
+  .h5 Requerimientos de información:
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Máximo 7 diapositivas.
+    li 
+      i.lista-ul__vineta
+      | Por cada diapositiva una idea central con máximo dos ideas secundarias, que pueden apoyarse en recursos gráficos.
+    li 
+      i.lista-ul__vineta
+      | Textos puntuales y claros.
+
   .tarjeta.tarjeta--azul.p-4.mb-5
     SlyderA
       .row
@@ -572,6 +646,33 @@ div
 
   #t_1_10.h4 Acordion
 
+  p.mb-3 Es un componente web que permite ahorrar espacio vertical a través del uso de botones  representados por títulos que permiten desplegar u ocultar información pertinente. 
+
+  .h5 Requerimientos de información:
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Los títulos de cada tema deben ser claros, concisos de una línea de word tamaño carta.
+    li 
+      i.lista-ul__vineta
+      | La cantidad máxima es de 7 items.
+    li 
+      i.lista-ul__vineta
+      | Se sugiere que la cantidad de texto sea igual o menor a 9 líneas de word tamaño carta. 
+    li 
+      i.lista-ul__vineta
+      | Se sugiere el uso de texto acompañado de imágenes que refuercen el contenido a representar. 
+    li 
+      i.lista-ul__vineta
+      | Se recomienda utilizar este componente para evidenciar procesos o temas generales compuesto de varias etapas.
+    li 
+      i.lista-ul__vineta
+      | No se debe utilizar para representar grandes cantidades de texto o contenido.
+    li 
+      i.lista-ul__vineta
+      | No se debe utilizar dentro del acordeón vídeos.
+
   AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
     .row(titulo="Titulo item 1")
       .col-md-6.mb-4.mb-md-0
@@ -604,6 +705,34 @@ div
 
 
   #t_1_11.h4 Pestañas o Tabs
+
+  p.mb-3 Es un elemento web que permite cambiar rápidamente el contenido que el usuario está consumiendo sin cambiar de ventana o desplazarse verticalmente por el sitio web. 
+
+  .h5 Requerimientos de información
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Los títulos que actuará como botón que sea una palabra o frases muy cortas.
+    li 
+      i.lista-ul__vineta
+      | La cantidad máxima es de 5 items.
+    li 
+      i.lista-ul__vineta
+      | Se sugiere que la cantidad de texto sea igual o menor a 12 líneas de word tamaño carta. 
+    li 
+      i.lista-ul__vineta
+      | Se sugiere el uso de texto acompañado de imágenes que refuercen el contenido a representar. 
+    li 
+      i.lista-ul__vineta
+      | Se recomienda utilizar este componente para evidenciar procesos o temas generales compuesto de varias etapas.
+    li 
+      i.lista-ul__vineta
+      | No se debe utilizar para representar grandes cantidades de texto o contenido.
+    li 
+      i.lista-ul__vineta
+      | No se debe utilizar dentro de la pestaña o tab vídeos.
+
   TabsA.mb-5
     .tarjeta.tarjeta--amarilla--borde.p-4(titulo="PASO 1: The splendor asd asd asd as dasd")
       h4 PASO 1: The splendor
@@ -788,19 +917,136 @@ div
 
   #t_1_12.h4 Líneas de tiempo
 
+  p.mb-3 Es una representación gráfica para sintetizar información, que permite ordenar y explicar acontecimientos que han ocurrido a lo largo de un periodo.
+
+  .h5 Requerimientos de información:
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Título llamativo
+    li 
+      i.lista-ul__vineta
+      | Descripción del evento con una cantidad de texto igual o menor a 9 líneas de word tamaño carta. 
+    li 
+      i.lista-ul__vineta
+      | Se sugiere el uso de imágenes que refuercen el contenido a representar. 
+    li 
+      i.lista-ul__vineta
+      | Si el elemento de la línea de tiempo requiere de algún anexo o algún documentos descargable, es necesario que se especifique claramente el título de dicho material. 
+    li 
+      i.lista-ul__vineta
+      | En anexos al componente incluir el material que será descargado. 
+    li 
+      i.lista-ul__vineta
+      | El peso de los anexos o archivos descargables no debe ser superior a 12MB.
+
   LineaTiempoA.mb-5(:datos="datosLineaTiempoA")
 
   LineaTiempoB.mb-5(:datos="datosLineaTiempoB")
-  
+
+  .tarjeta.tarjeta--gris.p-4.mb-5
+    LineaTiempoC
+
+      .row(titulo="1761")
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
+
+
+      .row(titulo="1798")
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
+
+
+      .row(titulo="1887")
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
+
+      div(titulo="1889")
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
+      .row(titulo="1899")
+        .col-md-6.mb-4.mb-md-0
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
+
+      div(titulo="1901")
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
+      div(titulo="1930")
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
+      div(titulo="1987")
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption Leyenda de la imagen
+
   #t_1_13.h4 Pasos
 
   PasosA.mb-5(tipo="n" :datos="datosPasosA")
 
   PasosA.mb-5(tipo="l" :datos="datosPasosA")
 
-
   #t_1_14.h4 Llamados a la acción
 
+  p.mb-2 Es un bloque de texto que destaca por su composición y diseño. Su principal función es incentivar al usuario a realizar una acción a través de un botón o hipervínculo, en este caso, con el fin de poder acceder a recursos como infografías, videos, documentos y sitios web externos e independientes del componente formativo.
+
+  ul.lista-ul.mb-3
+    li 
+      i.lista-ul__vineta
+      | Abrir PDF
+    li 
+      i.lista-ul__vineta
+      | Infografías
+    li 
+      i.lista-ul__vineta
+      | Documentos
+    li 
+      i.lista-ul__vineta
+      | Videos externos 
+    li 
+      i.lista-ul__vineta
+      | Enlaces
+
+  .h5 Requerimientos de información:
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Título llamativo, claro y conciso. 
+    li 
+      i.lista-ul__vineta
+      | La redacción de los textos deben crear la necesidad de consultar el contenido sugerido (anexos).
+    li 
+      i.lista-ul__vineta
+      | Se sugiere un párrafo de acompañamiento que no sobrepase las 3 líneas de texto en su extensión, cuya característica principal sea incentivar al aprendiz a consultar el recurso propuesto.
+
+  .h5 Ejemplo: Llamado a la acción 1 Acción de infografías
   .tarjeta.tarjeta--amarilla.p-4.p-md-5.mb-5
     .row.justify-content-around.align-items-center
       .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
@@ -814,6 +1060,7 @@ div
           span Descargar
           i.fas.fa-file-download
 
+  .h5 Ejemplo: Llamado a la acción 2 Recursos externos
   .tarjeta.tarjeta--morada.p-3.mb-5
     .row.justify-content-around.align-items-center
       .col-3.col-sm-2.col-lg-1
@@ -822,7 +1069,7 @@ div
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             .h5.mb-0 Título del recurso
-            p PDF 
+            p Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
           .col-sm-auto
             a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
               span Descargar
@@ -842,6 +1089,7 @@ div
               span Descargar
               i.fas.fa-file-download
 
+  .h5 Ejemplo: Llamado a la acción 3 Recursos externos versión simplificada
   .row.mb-5
     .col-lg-6
       a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -891,6 +1139,21 @@ div
 
   #t_1_15.h4 Tarjetas
   
+  p.mb-3 Es la agrupación de contenidos (texto e imágenes) en forma de tarjeta, que tiene como propósito, uno, ser más amigable el consumo de la información y dos, destacar información o conceptos relevantes.
+
+  .h5 Requerimientos de información:
+
+  ul.lista-ul.mb-5
+    li 
+      i.lista-ul__vineta
+      | Título corto y claro.
+    li 
+      i.lista-ul__vineta
+      | Información precisa, que reporten conceptos o definiciones.
+    li 
+      i.lista-ul__vineta
+      | Se sugiere una cantidad de texto igual o menor a 4 líneas de word tamaño carta.
+
   .row.mb-5
     .col-sm-6.col-lg-3.mb-4.mb-lg-0
       .tarjeta.tarjeta--boton.p-4
@@ -961,7 +1224,36 @@ div
       .h3.text-center Sterility leads to<br>susceptibility
       p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
 
-  .row.mb-5
+  .row
+    .col-lg-6
+      .tarjeta-Avatar-b.mb-5
+        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--azul.p-4
+          .h4 John Doe
+          p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .col-lg-6
+      .tarjeta-Avatar-b.mb-5
+        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--amarilla.p-4
+          .h4 John Doe
+          p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .col-lg-6
+      .tarjeta-Avatar-b.mb-5
+        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--roja.p-4
+          .h4 Greatness isn’t the height
+          p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+    .col-lg-6
+      .tarjeta-Avatar-b.mb-5
+        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--morada.p-4
+          .h4 Greatness isn’t the height
+          p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+  .row
     .col-md-6.col-lg.mb-5
       .tarjeta-Avatar
         img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
@@ -1011,10 +1303,11 @@ div
           img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
       .h4.text-center John Doe
       p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+  
   #t_1_16.h4 Tarjetas con numero
 
   .row.mb-5
-    .col
+    .col-md-6.mb-4.mb-md-0
       .tarjeta-numerada.p-5
         .tarjeta-numerada__numero
           .h4 1
@@ -1022,7 +1315,7 @@ div
           b Ruta integral de atención en salud para la promoción y mantenimiento de la salud 
         p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
 
-    .col
+    .col-md-6
       .tarjeta-numerada.p-5
         .tarjeta-numerada__numero
           .h4 2
@@ -1051,6 +1344,7 @@ div
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
+
 </template>
 
 <script>

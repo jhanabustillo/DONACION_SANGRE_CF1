@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Normatividad en promoción de la donación de sangre',
     descripcionCurso:
       'En el presente componente, el aprendiz podrá identificar la normatividad asociada con el área de promoción de la donación voluntaria y habitual de sangre, incluida la revisión de los lineamientos y boletines técnicos publicados a nivel nacional; por otro lado, el aprendiz también podrá comprender, cómo está constituida la red de sangre en Colombia y cuál es la función que cumple cada uno de los actores que la conforman. De esta manera, contarán con lo necesario a nivel normativo, quienes deseen desempeñar funciones en promoción de la donación de sangre.',
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [

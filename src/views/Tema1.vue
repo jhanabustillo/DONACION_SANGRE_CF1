@@ -4,17 +4,17 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-principal
-      .titulo-principal__numero
-        .h3 1
-      .h3.my-5 Introducción al marco normativo
-          
-    .cajon--azul.p-4.mb-5.mb-lg-0
+        .titulo-principal__numero
+          .h3 1
+        .h3 Introducción al marco normativo
+            
+    .cajon.cajon--gris.p-4.mb-5.mb-lg-0
       .row.justify-content-center.align-items-center
-            .col-auto
-              img(src="@/assets/curso/images/pages/ilustraciones/ico_1.svg", alt="", style="width:100px; display:left; margin:auto 0;")
-            .col
-              p.mb-0 Es importante recordar que el desconocimiento de la norma <b>no exime a las personas de las responsabilidades que tienen con respecto a las labores que les han sido encomendadas </b>, según el rol desempeñado. 
-  
+        .col-auto
+          img(src="@/assets/curso/images/pages/ilustraciones/ico_1.svg", alt="", style="width:100px; display:left; margin:auto 0;")
+        .col
+          p.mb-0 Es importante recordar que el desconocimiento de la norma <b>no exime a las personas de las responsabilidades que tienen con respecto a las labores que les han sido encomendadas, </b>según el rol desempeñado. 
+    
 
     p.mt-5 El compromiso técnico que tienen los promotores de la donación con respecto a la seguridad transfusional no es inferior al que tienen los responsables de otras áreas del banco de sangre; de hecho, <b>su rol es determinante para la obtención de hemocomponentes con un bajo riesgo para la transmisión de infecciones a través de la transfusión.</b> Por ello, quienes desempeñan esta labor deben conocer perfectamente los criterios establecidos para su buen desempeño, evitando consecuencias legales, éticas, económicas, pero, sobre todo, para cumplir con la finalidad de la transfusión:<b> brindar esperanza de vida.</b>
     
@@ -32,16 +32,15 @@
 
     p.mt-5 En Colombia, los criterios normativos en promoción de la donación de sangre, van desde decretos hasta boletines técnicos, los cuales se tratarán en el presente componente. 
     
-    .tarjeta.tarjeta-accion.p-4.p-md-5.mb-5.mt-5
+    .crd_A.crd_A--azul.p-4.p-md-5.mb-5.mt-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/componentes/ej-01.png")
-
+          img(src="@/assets/componentes/actividad.svg")
         .col-md.col-lg-6
-          .h2 ¿Como está conformada estructura de la red nacional de bancos de sangre?
-          p.mb-4 "A continuación haga clic en el botón descargar para visualizar la inforgrafia"
+          .h2 ¿Cómo está conformada la estructura de la Red Nacional de Bancos de Sangre y Servicios de Transfusión?
+          p.mb-4 A continuación haga clic en el botón descargar para visualizar la inforgrafia
           
-          a.boton.boton--b(:href="obtenerLink('/downloads/info.pdf')" target="_blank" type="application/pdf")
+          a.boton.boton--b(:href="obtenerLink('/downloads/infografia/infografia_01.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
@@ -52,28 +51,24 @@
 
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-6.mb-5.mb-lg-0
+      .col-12.col-md-8.col-xl-6
         .bloque-texto-b.p-4
           .bloque-texto-b__texto.h5.mb-0 Persona que, previo cumplimiento de los requisitos señalados en este Decreto, da, sin retribución económica y a título gratuito y para fines preventivos, terapéuticos, de diagnóstico o de investigación, una porción de su sangre en forma voluntaria, libre y consciente..
           p <b>Ministerio de Salud, <br> 2020, p. 2</b>
 
-    p.mt-5 En concordancia, si una persona manifiesta su intención de donar sangre, solo cumple con esta definición cuando lo hace sin ningún tipo de presión o coacción, siendo consciente de que sus conductas de vida permitirán salvar o mejorar la calidad de vida de quienes requieren de una transfusión. Es por esto que <b>el promotor de la donación de sangre es el directamente responsable de la calidad de la información que les brinda a los ciudadanos para que dicha definición se cumpla,</b> de lo contrario estaría en contra de lo establecido en la normatividad, vulnerando la seguridad de los pacientes, entre los cuales se encuentran niños que apenas están comenzando a vivir. 
-    br
-    p.mt-3 Así mismo, este Decreto define a <b>un banco de sangre como:</b>
+    p.mt-5 En concordancia, si una persona manifiesta su intención de donar sangre, solo cumple con esta definición cuando lo hace sin ningún tipo de presión o coacción, siendo consciente de que sus conductas de vida permitirán salvar o mejorar la calidad de vida de quienes requieren de una transfusión. Es por esto que #[strong el promotor de la donación de sangre es el directamente responsable de la calidad de la información que les brinda a los ciudadanos para que dicha definición se cumpla], de lo contrario estaría en contra de lo establecido en la normatividad, vulnerando la seguridad de los pacientes, entre los cuales se encuentran niños que apenas están comenzando a vivir. 
+    
+    
+    .row.mt-4
+      .col-lg
+        p.mb-4 Así mismo, este Decreto define a un #[strong banco de sangre] como:
+        p.mb-4 #[strong "Todo establecimiento o dependencia con Licencia Sanitaria de Funcionamiento para adelantar actividades relacionadas con la obtención, procesamiento y almacenamiento de sangre humana destinada a la transfusión de la sangre total o en componentes separados, a procedimientos de aféresis y a otros procedimientos preventivos, terapéuticos y de investigación. Tiene como uno de sus propósitos asegurar la calidad de la sangre y sus derivados.]
+        p Ministerio de Salud, 2020, p. 1
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/img_2.png", alt="alt", style="width: 200px; display:block; margin:0 auto;")       
 
-    .row.mt-5
-      .col-md-6
-        .col-lg-6
-        .bloque-texto-c.p-4
-      
-          .h5.mb-2 Todo establecimiento o dependencia con Licencia Sanitaria de Funcionamiento para adelantar actividades relacionadas con la obtención, procesamiento y almacenamiento de sangre humana destinada a la transfusión de la sangre total o en componentes separados, a procedimientos de aféresis y a otros procedimientos preventivos, terapéuticos y de investigación. Tiene como uno de sus propósitos asegurar la calidad de la sangre y sus derivados.
-          br
-          span Ministerio de Salud, 2020, p. 1
-      .col-md-5
-
-          img.img-responsive.img-jumbotron-padding(src='@/assets/curso/images/pages/ilustraciones/img_2.png', alt="", style="width:340px; display:left; margin:auto 3rem;")
-
-    p.mt-5 De acuerdo con lo anterior, las acciones realizadas por los bancos de sangre <b>deben estar centradas en reducir el riesgo de transmitir </b>infecciones a través de la transfusión, aunque día a día se requieren fortalecer las pruebas de tamizaje utilizadas para la detección de agentes infecciosos en los bancos de sangre (VIH, hepatitis B, hepatitis C, Chagas, sífilis, HTLV, core), el área de promoción debe ser una prioridad técnica para los actores que hacen parte de la medicina transfusional, ya que esta determina en buena medida si la sangre proviene de un donante de alto o bajo riesgo, además de la disponibilidad de dicho suministro.
+    p.mt-4 De acuerdo con lo anterior, las acciones realizadas por los bancos de sangre <b>deben estar centradas en reducir el riesgo de transmitir </b>infecciones a través de la transfusión, aunque día a día se requieren fortalecer las pruebas de tamizaje utilizadas para la detección de agentes infecciosos en los bancos de sangre (VIH, hepatitis B, hepatitis C, Chagas, sífilis, HTLV, core), el área de promoción debe ser una prioridad técnica para los actores que hacen parte de la medicina transfusional, ya que esta determina en buena medida si la sangre proviene de un donante de alto o bajo riesgo, además de la disponibilidad de dicho suministro.
     br
     p.mt-2 Igualmente, el artículo 4° del Decreto 1571 de 1993 manifiesta que:
 
@@ -83,12 +78,11 @@
         .bloque-texto-b.p-5
           .bloque-texto-b__texto.h5.mb-0 La sangre humana solo podrá ser extraída y utilizada sin ánimo de lucro, con fines preventivos, terapéuticos, de diagnóstico en seres humanos o para investigaciones científicas.
           br
-          span Ministerio de <br>Salud, 2020, p. 3
+          span Ministerio de Salud,<br> 2020, p. 3
 
     p.mt-4 El artículo 28 del Decreto 1571 de 1993, expresa que: <b>“Por ser la salud un bien de interés público, donar sangre es un deber de solidaridad social que tienen las personas y, por ningún motivo, podrá ser remunerado”</b> así mismo, se sentencia que <b>“el acto de donación sea consciente, expreso y voluntario por parte del donante”</b> (Ministerio de Salud, 2020, p. 10). Esto ratifica que, la sangre donada con fines transfusionales solo pueda estar enmarcada bajo aspectos de tipo social, voluntarios y altruistas. 
     
-    .cajon--azul.p-4.mb-5.mb-lg-0.mt-5
-    
+    .cajon.cajon--gris.p-4.mb-5.mb-lg-0.mt-5    
       p.mb-0 Por lo tanto, quienes ejerzan funciones de promoción de la donación de sangre, deben informar adecuadamente a las personas, <b>utilizando mensajes claros, precisos, basados en conceptos técnicos que conlleven a la seguridad transfusional,</b> y que estos se den en ambientes que les permita tomar una decisión voluntaria, consciente, madura y responsable sobre el acto de donar.
 
     #t_1_2.h4.mt-5 1.2 Resolución 0901 de 1996
@@ -96,17 +90,18 @@
 
     p.mt-3 El Manual de normas técnicas, administrativas y de procedimientos en bancos de sangre, ha sido publicado a través de la Resolución 0901 de 1996 (Ministerio de Salud, 2020). Tiene como objetivos específicos,<b> proteger tanto a los donantes como a los receptores de sangre, crear y mantener la garantía de la calidad de la sangre y sus hemocomponentes.</b>
 
-    .row.justify-content-center.align-items-center.mt-3
-        .col-6
-          p En el capítulo 3 de dicha resolución, se expresa que:
-          span.etiqueta--roja <b>“Donar sangre es un deber y un #[br]derecho de la solidaridad social que #[br] tienen las personas”</b>
-          br
-          span (Ministerio de Salud, 2020, p. 10).
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/img_3.png").img-fluid
+    .row.justify-content-center.align-items-center.mt-4
+      .col-auto.me-5
+        p.mb-3 En el capítulo 3 de dicha resolución, se expresa que:
+        span.etiqueta--roja.mb-4 <b>“Donar sangre es un deber y un #[br]derecho de la solidaridad social que #[br] tienen las personas”</b> 
+        br
+        br       
+        p (Ministerio de Salud, 2020, p. 10).
+      .col-auto 
+        img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/img_3.png").img-fluid
 
-   
-    p.mt-2 La anterior afirmación que da a conocer que es un deber social el ejercer la donación de sangre, pero, así mismo, expresa que los donantes son sujetos de derechos. También se determina que: 
+  
+    p.mt-4 La anterior afirmación que da a conocer que es un deber social el ejercer la donación de sangre, pero, así mismo, expresa que los donantes son sujetos de derechos. También se determina que: 
 
     .bloque-texto-a.p-4.p-md-5.mt-5
       .row.m-0.align-items-center.justify-content-between
@@ -114,15 +109,15 @@
           .h5.mb-0 Se debe advertir al donante sobre los eventuales riesgos inherentes a la extracción de sangre.
         .col-lg-7
           .bloque-texto-a__texto.p-4
-            p Todos los donantes potenciales deben recibir materiales educativos y tener la posibilidad de leer carteles o mensajes, referentes a los riesgos de enfermedades transmisibles por transfusión, con el fin de <b>darles la opción de autoexcluirse de donar o de evitar que la unidad recolectada sea utilizada con fines transfusionales.</b>
+            p Todos los donantes potenciales deben recibir materiales educativos y tener la posibilidad de leer carteles o mensajes, referentes a los riesgos de enfermedades transmisibles por transfusión, con el fin de <b>darles la opción de autoexcluirse de donar o de evitar que la unidad recolectada sea utilizada con fines transfusionales (Ministerio de Salud, 2020, p. 10).</b>
 
-    p.mt-5 Por ello es responsabilidad de los bancos de sangre <b> contar con la logística y herramientas necesarias para que los donantes potenciales sean bien informados,</b> y que la invitación a donar no esté solo centrada en la edad y peso mínimo requerido, puesto que para cumplir el objetivo de reducir el riesgo transfusional se debe ir más allá, es decir, abordar aspectos relacionados con las conductas de vida que conllevarían a que una persona tenga una alta probabilidad de estar infectada y que si acude a donar, podría estar transmitiendo dichas infecciones a otros que apenas están empezando a vivir o que tienen todas sus esperanzas de vida en la transfusión. <b>Es fundamental que el promotor conozca, sepa explicar y le dé a conocer a cada donante abordado, el concepto de ventana inmunológica.</b>
-    .jumbotron-4.mt-5
+    p.my-5 Por ello es responsabilidad de los bancos de sangre <b> contar con la logística y herramientas necesarias para que los donantes potenciales sean bien informados,</b> y que la invitación a donar no esté solo centrada en la edad y peso mínimo requerido, puesto que para cumplir el objetivo de reducir el riesgo transfusional se debe ir más allá, es decir, abordar aspectos relacionados con las conductas de vida que conllevarían a que una persona tenga una alta probabilidad de estar infectada y que si acude a donar, podría estar transmitiendo dichas infecciones a otros que apenas están empezando a vivir o que tienen todas sus esperanzas de vida en la transfusión. <b>Es fundamental que el promotor conozca, sepa explicar y le dé a conocer a cada donante abordado, el concepto de ventana inmunológica.</b>
+
+    .crd_A.crd_A--azul
       .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
+        .col-auto.mb-4.mb-xl-0
             img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/img_4.png").img-fluid
-        .col
-
+        .col-12.col-xl
           p.text-jumbotron-padding Así, el promotor informa adecuadamente y se le permite al donante revisar la posibilidad de autoexcluirse en caso de considerar tener un <b>factor de riesgo que podría afectar al o los pacientes que pudiesen ser transfundidos con la sangre donada,</b> y que además perciba la autoexclusión como una acción de responsabilidad social. 
 
           p.text-jumbotron-padding Así mismo, al darle a conocer al donante los cuidados que debe tener luego de la donación, <b>se le da a conocer que su bienestar es vital para los bancos de sangre,</b> lo cual genera confianza en la población.
@@ -131,200 +126,193 @@
     .titulo-segundo
     
       
-    .cajon--azul.p-4.mb-5-lg-0.mt-5
-      .row
-          .col-xl-2.mb-4
-            img.mt-2(src="@/assets/curso/images/pages/ilustraciones/ico_30.svg" alt="", style="width:70px; display:inline-block; margin:auto 5rem;")
-          .col-xl-7
-            p.mb-0 Son aquellos documentos que se emplean para transmitir instrucciones y decisiones, las cuales deben ser tenidas en cuenta durante la gestión realizada por parte de los actores a los cuales les sea aplicables.
+    .cajon.cajon--gris.p-4.mb-5-lg-0.mt-5
+      .row.align-items-center
+        .col-auto
+          figure
+            img(src="@/assets/curso/images/pages/ilustraciones/ico_30.svg", alt="alt", style="width:100px;")          
+        .col
+          p.mb-0 Son aquellos documentos que se emplean para transmitir instrucciones y decisiones, las cuales deben ser tenidas en cuenta durante la gestión realizada por parte de los actores a los cuales les sea aplicables.
 
           
     p.mt-5 Con el fin de fortalecer los aspectos relacionados con la promoción de la donación, el <b>Instituto Nacional de Salud ha emitido algunas circulares en las cuales se involucran algunas consideraciones que tienen que ver con la captación de los donantes de sangre.</b> El origen de cada uno de estos documentos radica en las necesidades evidenciadas en la práctica. A continuación, se revisarán algunas circulares que son de interés para el tema objeto del presente curso.
 
     
-          .h5.mt-5 1.3.1. Circular 001 de 2006
-          
+    .h5.mt-5 1.3.1. Circular 001 de 2006          
 
-          p Debido a que la donación de sangre se debe realizar bajo condiciones de tipo social, voluntaria y no remunerada, la <b>Circular 001 de 2006 emitida por el Instituto Nacional de Salud, le ratifica a los actores de la red lo expresado en el Decreto 1571 de 1993 y la Resolución 0901 de 1996, enunciando que la donación de sangre </b> se debe dar bajo acciones sociales, que dicha decisión debe ser libre, consciente y no coaccionada (INS, 2020).
+    p.mb-4 Debido a que la donación de sangre se debe realizar bajo condiciones de tipo social, voluntaria y no remunerada, la <b>Circular 001 de 2006 emitida por el Instituto Nacional de Salud, le ratifica a los actores de la red lo expresado en el Decreto 1571 de 1993 y la Resolución 0901 de 1996, enunciando que la donación de sangre </b> se debe dar bajo acciones sociales, que dicha decisión debe ser libre, consciente y no coaccionada (INS, 2020).
 
-    .row.justify-content-center.align-items-center
-            .col-auto
-              
-            img.img-responsive.mt-3(src='@/assets/curso/images/pages/ilustraciones/img_5.png')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto     
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/img_5.png", alt="alt", style="width:1500px;")        
 
-    .cajon--rojo.p-4.mb-5.mb-lg-0.mt-5
-          
-          p Además, manifiesta que <b> la donación coaccionada o de reposición, va en contra de la cultura de la donación </b> y, por lo tanto, no se debe ofrecer nada a cambio, como por ejemplo, el presionar o exigir donantes a los familiares y amigos de los pacientes para la prestación de servicios de salud (INS, 2020).
+    .cajon.cajon--gris.p-4.mb-4         
+      p Además, manifiesta que <b> la donación coaccionada o de reposición, va en contra de la cultura de la donación </b> y, por lo tanto, no se debe ofrecer nada a cambio, como por ejemplo, el presionar o exigir donantes a los familiares y amigos de los pacientes para la prestación de servicios de salud (INS, 2020).
       
 
     p.mt-3 Así mismo, esta circular aclara que el carné de donante de sangre <b> no es un seguro para poder acceder a obtener gratuitamente hemocomponentes en caso de que sean requeridos por el donante o alguno de sus familiares;</b> se concibe como el soporte que evidencia que dicha persona es solidaria, además tiene como propósito recordarle la fecha de la próxima donación. Finalmente, se puntualiza que <b> se deben adoptar medidas para que las personas no sigan concibiendo la donación como la obtención de un beneficio tangible</b> (INS, 2020).
 
-    .h5.mt-5 1.3.2. Circular 054 de 2014
+    .h5.mt-5 Circular 054 de 2014
 
     p.mt-4 En el 2014 el Instituto Nacional de Salud emite la Circular 054, la cual tiene como objetivo <b> proporcionar las líneas para mejorar el acceso a sangre y componentes sanguíneos,</b> esto en pro de favorecer el acceso, cobertura, seguridad y calidad de los componentes sanguíneos en el territorio nacional (INS, 2020). 
 
-    p.mt-3 Allí se relacionan los niveles y estructura y funcionalidad operativa de la red de sangre:
+    p.my-3 Allí se relacionan los niveles y estructura y funcionalidad operativa de la red de sangre:
 
-     .i-general-5
-        div.div-gradient-12
-          .col-auto 
-             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-          .div.c-card-12
-            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_4.svg' alt="", style="width:70px; display:inline-block; margin:auto 0;")
-            p.p2
-              b Banco de sangre.
+    .row.justify-content-center.mb-5
+      .col-12.col-xl-8
+        hr
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/images/pages/ilustraciones/ico_4.svg", alt="alt", style="width:70px;")
+          .col
+            p #[strong Banco de sangre]
               br
               | Puesto fijo de recolección de sangre.
               br
               | Puesto móvil de recolección de sangre.
-        div.div-gradient-12
-          .col-auto 
-             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-          .div.c-card-12
-            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_5.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
-            p.mt-4.p2 #[strong Servicio de transfusión sanguínea]
-        div.div-gradient-12
-          .col-auto 
-             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-          .div.c-card-12
-            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_6.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
-            p.mt-4.p2 #[strong Coordinaciones departamentales y distrital de sangre]
-        div.div-gradient-12
-          .col-auto 
-             img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-          .div.c-card-12
-            img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_7.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
-            p.mt-4.p2 #[strong Coordinación Nacional de la Red]
+        hr
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/images/pages/ilustraciones/ico_5.svg", alt="alt", style="width:70px;")
+          .col
+            p #[strong Servicio de transfusión sanguínea]
+        hr
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/images/pages/ilustraciones/ico_6.svg", alt="alt", style="width:70px;")
+          .col
+            p #[strong Coordinaciones departamentales y distrital de sangre]
+        hr
+        .row.align-items-center
+          .col-auto
+            figure
+              img(src="@/assets/curso/images/pages/ilustraciones/ico_7.svg", alt="alt", style="width:70px;")
+          .col
+            p #[strong Coordinación Nacional de la Red]
+        hr 
 
-    .cajon--azul.p-4.mb-5.mb-lg-0
-   
+    .cajon.cajon--gris.p-4.mb-4
       p Allí también se ratifica que el <b> Instituto Nacional de Salud ejerce su rol como Coordinador de la Red Nacional de bancos de sangre </b> y que las Secretarias de Salud Departamentales (SSD) ejercerán la coordinación territorial de la misma.
     
     .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/img_9.png").img-fluid
-        .col
-          p.mt-3 Que en el cumplimiento de su objeto de red estos actores a nivel nacional y territorial  
-          <b> son responsables de planificar y promover la donación de sangre en el ámbito territorial y nacional, planificar la cobertura de necesidades y la distribución de sangre y hemocomponentes de todas las instituciones públicas o privadas que requieran sangre y componentes y generar mecanismos de coordinación de los bancos de sangre para lograr acceso, cobertura y oportunidad y el uso más adecuado de la sangre </b>
+      .col-auto 
+          img.img-a.my-3(src="@/assets/curso/images/pages/ilustraciones/img_9.png").img-fluid
+      .col-12.col-lg
+        p.mt-3 Que en el cumplimiento de su objeto de red estos actores a nivel nacional y territorial #[strong son responsables de planificar y promover la donación de sangre en el ámbito territorial y nacional, planificar la cobertura de necesidades y la distribución de sangre y hemocomponentes] de todas las instituciones públicas o privadas que requieran sangre y componentes y generar mecanismos de coordinación de los bancos de sangre para lograr acceso, cobertura y oportunidad y el uso más adecuado de la sangre.
 
 
-    p.mt-3 Que la sangre es un bien público cuyo único donante es el ser humano. Por tanto, no debe ser sujeto a un uso inadecuado y debe captarse con base en las necesidades de sangre. La sangre no está sujeta a comercialización y no debe percibirse lucro por este servicio. Por tanto, 
-    b la responsabilidad de la planificación y organización de la red de bancos necesaria para abastecer las necesidades del país está a cargo del Estado (INS, 2020).|
+    p.mt-3 Que la sangre es un bien público cuyo único donante es el ser humano. Por tanto, no debe ser sujeto a un uso inadecuado y debe captarse con base en las necesidades de sangre. La sangre no está sujeta a comercialización y no debe percibirse lucro por este servicio. Por tanto, #[strong la responsabilidad de la planificación y organización de la red de bancos necesaria para abastecer las necesidades del país está a cargo del Estado (INS, 2020).]
 
-    p.mt-3 Así mismo, <b>da claridad en el orden y organización de los procesos de captación y distribución de sangre y componentes </b> dentro del territorio nacional.
+    p.mt-3 Así mismo, <b>da claridad en el orden y organización de los procesos de captación y distribución de sangre y componentes </b>dentro del territorio nacional.
     br
-    p Estos deberán cumplir con lo relacionado en la Circular, entre otros aspectos:
-    
-    .i-general-5
-      div.div-gradient-13
-        .col-auto 
-            img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-        .div.c-card-13
-          img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_9.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
-          p.mb-0 Ceñirse al programa de promoción de la donación voluntaria y habitual de sangre, que desarrolle la Secretaría de Salud Departamental quien ejerce la coordinación territorial de la Red de Sangre acorde con los lineamientos de la red nacional
-      div.div-gradient-13
-        .col-auto 
-            img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-        .div.c-card-13
-          img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_10.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float
-          p.mb-0  Destinar la sangre colectada a cubrir, en primer lugar, las necesidades previstas en el departamento donde realizan la colecta.
-      div.div-gradient-13
-        .col-auto 
-            img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
-        .div.c-card-13
-          img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico_11.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float 
-          p.mb-0   Participar en el programa local de plan territorial de emergencias y desastres de la Secretaría de Salud Departamental (INS, 2020).
-        .col-auto 
-            img.img-responsive.mt-1(src='@/assets/curso/images/pages/ilustraciones/line.svg')
+    p.mb-5 Estos deberán cumplir con lo relacionado en la Circular, entre otros aspectos:
 
-      p.mt-5 Además, en la circular se manifiesta que un banco de sangre <b> no puede realizar jornadas de donación en un departamento diferente a su área de influencia.</b> Para poder ingresar, debe gestionar un permiso con la dirección territorial, es decir, con la secretaría de salud departamental, en el cual se debe comprometer con dicha institución, en que la sangre que sea colectada será distribuida en los servicios de transfusión de ese departamento. La secretaría de salud tiene la autonomía de decidir si le permite o no el ingreso,<b>si no lo permite, el banco de sangre no podría realizar dicha jornada de donación.</b> Lo anterior aplica si es para una jornada móvil o para un puesto fijo de colecta.
+    hr
+    .row.align-items-center
+      .col-auto
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/ico_9.svg", alt="alt", style="width:70px;")
+      .col
+        p Ceñirse al programa de promoción de la donación voluntaria y habitual de sangre, que desarrolle la Secretaría de Salud Departamental quien ejerce la coordinación territorial de la Red de Sangre acorde con los lineamientos de la red nacional.
+    hr
+    .row.align-items-center
+      .col-auto
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/ico_10.svg", alt="alt", style="width:70px;")
+      .col
+        p Destinar la sangre colectada a cubrir, en primer lugar, las necesidades previstas en el departamento donde realizan la colecta.
+    hr
+    .row.align-items-center
+      .col-auto
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/ico_11.svg", alt="alt", style="width:70px;")
+      .col
+        p Participar en el programa local de plan territorial de emergencias y desastres de la Secretaría de Salud Departamental (INS, 2020).
+    hr
+    p.mb-5 Además, en la circular se manifiesta que un banco de sangre <b> no puede realizar jornadas de donación en un departamento diferente a su área de influencia.</b> Para poder ingresar, debe gestionar un permiso con la dirección territorial, es decir, con la secretaría de salud departamental, en el cual se debe comprometer con dicha institución, en que la sangre que sea colectada será distribuida en los servicios de transfusión de ese departamento. La secretaría de salud tiene la autonomía de decidir si le permite o no el ingreso,<b>si no lo permite, el banco de sangre no podría realizar dicha jornada de donación.</b> Lo anterior aplica si es para una jornada móvil o para un puesto fijo de colecta.
 
-    .bloque-texto-a.p-4.p-md-5.mt-5
+    .bloque-texto-a.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           .h5.mb-0 Secretarías de salud departamentales quien ejerce la coordinación territorial de la Red de Sangre y Coordinación Red Nacional Bancos de Sangre y Servicios transfusionales.
         .col-lg-7
           .bloque-texto-a__texto.p-4
             p <b> La Red Nacional de Bancos de Sangre del INS </b> en conjunto con las secretarías de salud departamentales quien ejerce la coordinación territorial de la <b> Red de Sangre, estimarán las necesidades de sangre a colectar anualmente,</b> para ello tendrán en cuenta los históricos de colecta de cada uno de los bancos de sangre y las transfusiones, así como la demanda satisfecha en los servicios transfusionales de su departamento, de acuerdo con los proveedores definidos en cada institución. Esta será la base para la autorización de colecta o distribución de sangre y sus componentes (INS, 2020).
-    p.mt-4 Así mismo, realizarán seguimiento a indicadores de la red departamental:
+            
+    p.mb-4 Así mismo, realizarán seguimiento a indicadores de la red departamental:
 
-    .cajon--azul.p-4.mb-5.mb-lg-0.mt-5
+    .cajon.cajon--gris.p-4.mb-5
       p.mb-0 Considerando que las necesidades de sangre y su cobertura definen si es necesario o no autorizar la apertura de bancos de sangre y puestos fijos o móviles de captación de sangre, son las SSD quien ejerce la coordinación territorial de la Red de Sangre, las que inicialmente evaluarán su viabilidad (INS, 2020).
 
-    p.mt-3 Coordinación Red Nacional Bancos de Sangre y Servicios Transfusionales – INS
+    h5 Coordinación Red Nacional Bancos de Sangre y Servicios Transfusionales – INS
     br
     p Evaluará los criterios de organización y planificación de la Red cuando se presenten solicitudes de apertura de un puesto de captación (fijo o móvil) o un nuevo banco de sangre, emitirá un Concepto de viabilidad que podrá ser favorable o no: 
     br
-    p En los dos casos se informará al Invima, a la SSD quien ejerce la coordinación territorial, de la Red de Sangre y al solicitante. Para la expedición de dicho concepto se deben revisar los criterios planteados por las secretarías de salud departamentales quien ejerce la coordinación territorial de la Red de Sangre. 
+    p.mb-5 En los dos casos se informará al Invima, a la SSD quien ejerce la coordinación territorial, de la Red de Sangre y al solicitante. #[strong Para la expedición de dicho concepto se deben revisar los criterios planteados por las secretarías de salud departamentales] quien ejerce la coordinación territorial de la Red de Sangre. 
 
-    .row.mt-5
-      .col-md-6
-        .col-lg-6
-        .bloque-texto-c.p-4
-      
+    .row.mb-5
+      .col-12.col-lg-5.mb-4.mb-lg-0     
+        .bloque-texto-c.p-4      
           .h5.mb-3 El Invima realizará visita de seguimiento periódico posterior al inicio de las actividades del banco de sangre.
-      .col-md-5.text-jumbotron-padding Para los casos en los que el concepto sea favorable, <b>la Coordinación de la Red Nacional de Bancos de Sangre procederá a otorgar el Código Nacional del Banco de Sangre </b> y su respectiva inscripción en la Red Nacional de Bancos de Sangre, con base en el concepto que emita el Invima como autoridad sanitaria de Inspección Vigilancia y Control, respecto al cumplimiento de requisitos de acuerdo con la normatividad vigente que rigen para bancos de sangre. Cumplido este trámite, el Banco de Sangre podrá iniciar sus actividades. El Invima realizará visita de seguimiento periódico posterior al inicio de las actividades del banco de sangre (INS, 2020).
+      .col-12.col-lg
+        p Para los casos en los que el concepto sea favorable, <b>la Coordinación de la Red Nacional de Bancos de Sangre procederá a otorgar el Código Nacional del Banco de Sangre </b> y su respectiva inscripción en la Red Nacional de Bancos de Sangre, con base en el concepto que emita el Invima como autoridad sanitaria de Inspección Vigilancia y Control, respecto al cumplimiento de requisitos de acuerdo con la normatividad vigente que rigen para bancos de sangre. Cumplido este trámite, el Banco de Sangre podrá iniciar sus actividades. El Invima realizará visita de seguimiento periódico posterior al inicio de las actividades del banco de sangre (INS, 2020).
 
-      .h5.mt-5 1.3.3. Circular 003 de 2015
+    .h5.mb-4 Circular 003 de 2015
 
-      p.mt-3 En el 2015 el Instituto Nacional de Salud emite oficialmente la Circular 003, la cual tiene como propósito <b> dar a conocer algunas recomendaciones a los actores de la red para prevenir o mitigar la deficiencia de hemocomponentes en temporada decembrina y vacacional, </b> ya que, debido a las celebraciones y actividades relacionadas con la época, se ha evidenciado una baja en la colecta de sangre, lo cual puede impactar en la seguridad de los pacientes (INS, 2020). 
+    p.mb-5 En el 2015 el Instituto Nacional de Salud emite oficialmente la Circular 003, la cual tiene como propósito <b> dar a conocer algunas recomendaciones a los actores de la red para prevenir o mitigar la deficiencia de hemocomponentes en temporada decembrina y vacacional, </b> ya que, debido a las celebraciones y actividades relacionadas con la época, se ha evidenciado una baja en la colecta de sangre, lo cual puede impactar en la seguridad de los pacientes (INS, 2020). 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto     
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/img_1.png", alt="alt", style="width:1200px;")       
+
+    p.mb-4 Entre las recomendaciones dadas con respecto a promoción de la donación de sangre, están:
+
+    .crd_A.crd_A--gris  
       .row.justify-content-center.align-items-center
-            .col-auto
-              
-            img.img-responsive.mt-3(src='@/assets/curso/images/pages/ilustraciones/img_1.png')
-      p.mt-3 Entre las recomendaciones dadas con respecto a promoción de la donación de sangre, están:
-    .jumbotron-1.mt-5
-      .row.justify-content-center.align-items-center
-      .col-sm.mt-3
-        .h6 
-        span.etiqueta--roja #[strong Coordinación departamental:]
-        ul.lista-ul--separador.mt-3
-          li 
-            i.fas.fa-angle-right
-            | Promover la donación voluntaria y habitual de sangre en la población, evitando los llamados alarmantes e inesperados, ya que comprometen la seguridad transfusional.
-         
-          li 
-            i.fas.fa-angle-right
-            | Requerir apoyo al Comité Departamental de Promoción (conformado por la dirección territorial y los promotores que lideran dicha área en cada uno de los bancos de sangre del departamento), esto con el fin de convocar a los donantes de sangre habituales y aquellos que hayan donado en los últimos 12 meses.
-          li 
-            i.fas.fa-angle-right
-            | Solicitud de apoyo al área de comunicaciones de la gobernación departamental para la difusión de mensajes de información, sensibilización y educación sobre la donación voluntaria y habitual de sangre, a través de las redes sociales (INS, 2020). 
-        .h6 
-        span.etiqueta--roja  #[strong Bancos de sangre:]
-        ul.lista-ul--separador.mt-3
-          li 
-            i.fas.fa-angle-right
-            |  Abastecerse con los insumos y la logística necesaria para la colecta de sangre.
-            li 
-              i.fas.fa-angle-right
-              | Establecer estrategias que conlleven a sensibilizar a los donantes de sangre.
-            li 
-              i.fas.fa-angle-right
-              | Contar con personal capacitado para realizar promoción de la donación de sangre (INS, 2020). 
+        .col
+          .h6.mb-4 #[span.etiqueta--roja Coordinación departamental:]    
+          p Promover la donación voluntaria y habitual de sangre en la población, evitando los llamados alarmantes e inesperados, ya que comprometen la seguridad transfusional.
+          hr
+          p Requerir apoyo al Comité Departamental de Promoción (conformado por la dirección territorial y los promotores que lideran dicha área en cada uno de los bancos de sangre del departamento), esto con el fin de convocar a los donantes de sangre habituales y aquellos que hayan donado en los últimos 12 meses.
+          hr
+          p.mb-5 Solicitud de apoyo al área de comunicaciones de la gobernación departamental para la difusión de mensajes de información, sensibilización y educación sobre la donación voluntaria y habitual de sangre, a través de las redes sociales (INS, 2020).         
+
+          .h6.mb-4 #[span.etiqueta--roja Bancos de sangre:]
+          p Abastecerse con los insumos y la logística necesaria para la colecta de sangre.
+          hr
+          p Establecer estrategias que conlleven a sensibilizar a los donantes de sangre.
+          hr
+          p Contar con personal capacitado para realizar promoción de la donación de sangre (INS, 2020).            
     
     .row.mt-5
-      .col-md-6
-        .h5.mt-2
+      .col-md-4
+        .h5
           b Los actores de la red deben prever aquella época en la que 
-          span.etiqueta--green la deficiencia de hemocomponentes se hace más evidente.
-      .col-md-6
-        p.mt-2 Por lo tanto, deberán crear estrategias educativas, a través de las cuales, se den a conocer a la población, 
+          span.etiqueta--green la deficiencia de hemocomponentes se hace más evidente.          
+      .col-md-8
+        p Por lo tanto, deberán crear estrategias educativas, a través de las cuales, se den a conocer a la población, 
         <b> la importancia de donar sangre de manera voluntaria y frecuente para poder contar con un suministro oportuno de hemocomponentes, </b> pero, sobre todo, de bajo riesgo. El mensaje dado no debe ser alarmante y siempre basado en aspectos positivos.
       
     #t_1_4.h4.mt-5  1.4 Lineamientos
     .titulo-segundo
 
-    p.mt-3 Dada la necesidad de fortalecer los aspectos técnicos, la Coordinación de la Red Nacional de Bancos de Sangre y Servicios de Transfusión, en cabeza del Instituto Nacional de Salud, <b> también ha dado lugar a la generación y publicación de documentos denominados como lineamientos,</b> en los cuales se dan a conocer directrices específicas y que están asociadas a la promoción de la donación de sangre.
+    p.mb-4 Dada la necesidad de fortalecer los aspectos técnicos, la Coordinación de la Red Nacional de Bancos de Sangre y Servicios de Transfusión, en cabeza del Instituto Nacional de Salud, <b> también ha dado lugar a la generación y publicación de documentos denominados como lineamientos,</b> en los cuales se dan a conocer directrices específicas y que están asociadas a la promoción de la donación de sangre.
 
-    .cajon--azul.p-4.mb-5.mb-lg-0.mt-5
+    .cajon.cajon--gris.p-4.mb-5
       p.mb-0 El contenido de estos documentos es considerado importante para la <b>Red de Sangre en Colombia,</b> en aras del fortalecimiento de la seguridad transfusional, razón por la cual, <b>quienes realicen actividades de promoción deben conocerlas e incentivar su implementación.</b>
 
-    .row.justify-content-center.align-items-center
-            .col-auto            
-            img.img-responsive.mt-5(src='@/assets/curso/images/pages/ilustraciones/img_10.png')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto 
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/img_10.png", alt="alt", style="width:1500px;")        
+        
 
-    .h5.mt-4 1.4.1. Lineamiento Promoción de la donación de sangre y componentes anatómicos
+    .h5 Lineamiento Promoción de la donación de sangre y componentes anatómicos
 
     p.mt-3 La promoción de la donación de sangre ha sido catalogada como el pilar fundamental de la seguridad transfusional, ya que, de la gestión realizada por los encargados de desempeñar esta labor, se determina el riesgo de transmisión de infecciones a través de la transfusión y la disponibilidad de los hemocomponentes (INS, 2020). 
     br
@@ -338,31 +326,32 @@
           .bloque-texto-a__texto.p-4
             p Ya que debe existir una coherencia entre lo que se desea recibir y lo que se desea para los demás. Dichas acciones permiten que los promotores de la donación de sangre perciban que el donante también es un sujeto de derechos, ya que los derechos humanos amparan a todas las personas sin ningún tipo de distinción (INS, 2020). 
 
-    p.mt-5 Por otro lado, los derechos humanos son interdependientes, por ejemplo, <b>un donante tiene derecho a ser informado sobre conductas de autocuidado, la importancia de donar sangre de manera frecuente, cuidados antes durante y posteriormente a haber donado,</b> ese tipo de información le aporta para poder ejercer su derecho a la salud y a la vida (INS, 2020).
+    p.my-5 Por otro lado, los derechos humanos son interdependientes, por ejemplo, <b>un donante tiene derecho a ser informado sobre conductas de autocuidado, la importancia de donar sangre de manera frecuente, cuidados antes durante y posteriormente a haber donado,</b> ese tipo de información le aporta para poder ejercer su derecho a la salud y a la vida (INS, 2020).
         
-        .row.mt-5
-          .col-md-4
-            .h5.mt-2
-              span.etiqueta--verde De la misma manera,#[br]los derechos humanos#[br] no se pierden #[br]con el tiempo.
-              
-          .col-md-7
-            p.mt-2 Por ejemplo, no es posible que hoy se informe adecuadamente al donante pero ya mañana no, así que su derecho a estar informado debe permanecer en el tiempo. Los derechos humanos deben evolucionar y en caso de que se requieran nuevos derechos, estos se deben crear. Los derechos humanos no se pueden transferir a otra persona, así que no es necesario cedérselos a nadie, además todas las personas tienen los mismos derechos. El valor de los derechos humanos está en llevarlos a la práctica (INS, 2020). 
-    .row.justify-content-center.align-items-center
-        .col-auto            
-          img.img-responsive.mt-5(src='@/assets/curso/images/pages/ilustraciones/img_11.png' alt="", style="width:1050px; display:block; margin:auto 0;")
+    .row.align-items-center.mb-5
+      .col-12.col-lg-3
+        .h5.mt-2
+          span.etiqueta--verde De la misma manera,#[br]los derechos humanos#[br] no se pierden #[br]con el tiempo.          
+      .col-12.col-md-9
+        p.mt-2 Por ejemplo, no es posible que hoy se informe adecuadamente al donante pero ya mañana no, así que su derecho a estar informado debe permanecer en el tiempo. Los derechos humanos deben evolucionar y en caso de que se requieran nuevos derechos, estos se deben crear. Los derechos humanos no se pueden transferir a otra persona, así que no es necesario cedérselos a nadie, además todas las personas tienen los mismos derechos. El valor de los derechos humanos está en llevarlos a la práctica (INS, 2020). 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto           
+        figure
+          img(src="@/assets/curso/images/pages/ilustraciones/img_11.png", alt="alt", style="width:1500px;")        
       
-        p.mt-5 Las consideraciones técnicas del lineamiento también están basadas en los principios éticos, por ejemplo, <b> los donantes de sangre por su acción social de salvar vidas deben ser valorados, cuando esto sucede, se cumple con el principio ético de la dignidad.</b> Así mismo, con la información previa que una persona recibe sobre la donación de sangre, puede decidir si dona o no lo hace, esta disposición <b> debe ser respetada y libre de cualquier tipo de coacción, </b> para que así no se le esté vulnerando el principio ético de la autonomía (INS, 2020).
+    p.mb-5 Las consideraciones técnicas del lineamiento también están basadas en los principios éticos, por ejemplo, <b> los donantes de sangre por su acción social de salvar vidas deben ser valorados, cuando esto sucede, se cumple con el principio ético de la dignidad.</b> Así mismo, con la información previa que una persona recibe sobre la donación de sangre, puede decidir si dona o no lo hace, esta disposición <b> debe ser respetada y libre de cualquier tipo de coacción, </b> para que así no se le esté vulnerando el principio ético de la autonomía (INS, 2020).
 
-        .jumbotron-4.mt-5
-            .row.justify-content-center.align-items-center
-              .col
-                  p.mt-4 Cuando una persona dona sangre con la convicción de que su sangre es de bajo riesgo de transmitir cualquier tipo de infección, y por consiguiente, los hemocomponentes obtenidos van a beneficiar a los pacientes a los cuales les serán transfundidos, <b>se ejerce el principio ético de la beneficencia.</b> Si un donante de sangre concibe <b>la autoexclusión como un acto de responsabilidad social, se hace alusión al principio ético de no maleficencia.</b>
-              .col-auto
-                  img.number(src='@/assets/curso/images/pages/ilustraciones/ico_12.svg' alt="", style="width:150px; display:block; margin:auto 0;").img-float
+    .crd_A.crd_A--azul.mb-5    
+      .row.justify-content-center.align-items-center
+        .col
+          p Cuando una persona dona sangre con la convicción de que su sangre es de bajo riesgo de transmitir cualquier tipo de infección, y por consiguiente, los hemocomponentes obtenidos van a beneficiar a los pacientes a los cuales les serán transfundidos, <b>se ejerce el principio ético de la beneficencia.</b> Si un donante de sangre concibe <b>la autoexclusión como un acto de responsabilidad social, se hace alusión al principio ético de no maleficencia.</b>
+        .col-auto
+          img.number(src='@/assets/curso/images/pages/ilustraciones/ico_12.svg' alt="", style="width:150px; display:block; margin:auto 0;").img-float
 
-        .h5.mt-4 1.4.2 Lineamientos Selección de donantes de sangre
+    .h5.mb-4 Lineamientos Selección de donantes de sangre
 
-        p.mt-3 Los encargados de realizar la promoción de la donación de sangre, tienen la responsabilidad de <b> informar a los donantes sobre los requisitos que deben cumplir para hacer efectiva su donación,</b> esto previamente al diligenciamiento de la encuesta y entrevista. Por esta razón, deben conocer los criterios establecidos, además de su fundamentación, especialmente centrándose en aquellos aspectos que son de un mayor interés para la población, como por ejemplo: 
+    p.mt-3 Los encargados de realizar la promoción de la donación de sangre, tienen la responsabilidad de <b> informar a los donantes sobre los requisitos que deben cumplir para hacer efectiva su donación,</b> esto previamente al diligenciamiento de la encuesta y entrevista. Por esta razón, deben conocer los criterios establecidos, además de su fundamentación, especialmente centrándose en aquellos aspectos que son de un mayor interés para la población, como por ejemplo: 
 
     .tarjeta--container.row.mb-5.mt-5
       .col-md.tarjeta.tarjeta--roja.p-5
@@ -416,7 +405,7 @@
           figure
             img.me-5(src='@/assets/curso/images/pages/ilustraciones/ico1.svg' alt="", style="width:60px; display:block; margin:auto 0;").img-float    
         .col
-          p.mb-3 La promoción se debe realizar con el propósito de captar donantes habituales: el donante habitual es aquella persona que dona dos veces en doce meses, aunque la frecuencia de donación es importante, no se puede dejar a un lado que esta persona, además, debe ser consciente de que sus conductas de vida no generan riesgo alguno en quien reciba la sangre donada.
+          p.mb-3 La promoción se debe realizar con el propósito de captar donantes habituales: el donante habitual es aquella persona que dona dos veces en doce meses, aunque la frecuencia de donación es importante, no se puede dejar a un lado que esta persona, además, debe ser consciente de que sus conductas de vida no generan riesgo alguno en quien reciba la sangre donada. as as
       hr
       .row.align-items-center.mt-3
         .col-auto
@@ -849,54 +838,15 @@
       .cajon--azul.p-4.mb-5.mb-lg-0.mt-4
 
         p.mb-0 Así mismo, se debe contar con una lista de chequeo que permita <b>realizar revisiones de tipo técnico para ajustar el proceso de promoción </b> y a su vez, prepararse para las auditorías, identificando las acciones de mejora a realizar.
+
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
-  name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  name: 'Tema3',
   data: () => ({
-    datosSlyderC: [
-      {
-        titulo: '',
-        texto:
-          'Solicitud de donantes a los familiares y amigos de los pacientes a cambio de la prestación de servicios de salud.',
-        imagen: require('@/assets/curso/images/pages/ilustraciones/img_12.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto:
-          'Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.',
-        imagen: require('@/assets/curso/images/pages/ilustraciones/img_13.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto:
-          'En espera de recibir un beneficio tangible a cambio, como por ejemplo, adquirir por la donación un souvenir que le fue ofrecido antes de acceder a donar.',
-        imagen: require('@/assets/curso/images/pages/ilustraciones/img_14.png'),
-        //leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto:
-          'Persona que accede a donar en momento de angustia y sin la conciencia necesaria del acto de donar sangre.',
-        imagen: require('@/assets/curso/images/pages/ilustraciones/img_15.png'),
-        //leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: '',
-        texto:
-          'En espera de recibir un beneficio intangible a cambio, como por ejemplo, confiar en que a través de la donación de sangre se le disminuye el colesterol, los triglicéridos, las posibilidades de tener un infarto de miocardio o un accidente cerebrovascular, condiciones que no han sido comprobadas científicamente..',
-        imagen: require('@/assets/curso/images/pages/ilustraciones/img_16.png'),
-        //leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
+    // variables de vue
   }),
 }
 </script>
