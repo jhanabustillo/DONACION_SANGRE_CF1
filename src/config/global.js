@@ -13,12 +13,12 @@ export default {
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
-      {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
-      },
+      //{
+      //  nombreRuta: 'introduccion',
+      //  icono: 'fas fa-info',
+      //  titulo: 'Introducción',
+      //  desarrolloContenidos: true,
+      //},
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
@@ -144,7 +144,7 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
+        cargo: 'Soporte Organizacional',
       },
       {
         nombre: [
@@ -187,7 +187,7 @@ export default {
       referencia:
         'Instituto Nacional de Salud – INS. (2020). Boletín técnico. Promoción de la donación voluntaria y habitual de sangre como impacto en la seguridad transfusional de 2011.',
       link:
-        'https://www.ins.gov.co/BibliotecaDigital/promocion-donacion-sangre-como-impacto-en-seguridad-transfusional.pdf,',
+        'https://www.ins.gov.co/BibliotecaDigital/promocion-donacion-sangre-como-impacto-en-seguridad-transfusional.pdf',
     },
     {
       referencia:
@@ -257,42 +257,42 @@ export default {
     {
       termino: 'Banco de sangre',
       significado:
-        'Establecimiento o dependencia con licencia sanitaria de funcionamiento para adelantar actividades relacionadas con la obtención, procesamiento y almacenamiento de sangre humana destinada a la transfusión de la sangre total o en componentes separados, a procedimientos de aféresis y a otros procedimientos preventivos, terapéuticos y de investigación. Tiene como uno de sus propósitos asegurar la calidad de la sangre y sus derivados.',
+        'establecimiento o dependencia con licencia sanitaria de funcionamiento para adelantar actividades relacionadas con la obtención, procesamiento y almacenamiento de sangre humana destinada a la transfusión de la sangre total o en componentes separados, a procedimientos de aféresis y a otros procedimientos preventivos, terapéuticos y de investigación. Tiene como uno de sus propósitos asegurar la calidad de la sangre y sus derivados.',
     },
     {
       termino: 'Donante de sangre',
       significado:
-        'Persona que, previo el cumplimiento de los requisitos, da, sin retribución económica y a título gratuito y para fines preventivos, terapéuticos, de diagnóstico o de investigación, una porción de su sangre en forma voluntaria, libre y consciente.',
+        'persona que, previo el cumplimiento de los requisitos, da, sin retribución económica y a título gratuito y para fines preventivos, terapéuticos, de diagnóstico o de investigación, una porción de su sangre en forma voluntaria, libre y consciente.',
     },
     {
       termino: 'Red Nacional de Bancos de Sangre',
       significado:
-        'Sistema de coordinación técnico, administrativo y asistencial que permiten desarrollar, organizar, supervisar y evaluar, con el propósito de garantizar el suministro suficiente, oportuno y seguro de la sangre y sus hemoderivados en el territorio nacional.',
+        'sistema de coordinación técnico, administrativo y asistencial que permiten desarrollar, organizar, supervisar y evaluar, con el propósito de garantizar el suministro suficiente, oportuno y seguro de la sangre y sus hemoderivados en el territorio nacional.',
     },
     {
       termino: 'Hemocomponente',
       significado:
-        'Parte que se obtiene mediante la separación de una unidad de sangre total, utilizando medios físicos o mecánicos, tales como sedimentación, centrifugación, congelación o filtración.',
+        'parte que se obtiene mediante la separación de una unidad de sangre total, utilizando medios físicos o mecánicos, tales como sedimentación, centrifugación, congelación o filtración.',
     },
     {
       termino: 'Promoción de la donación de sangre',
       significado:
-        'Acciones de información, sensibilización y educación sobre la donación de sangre y conductas de autocuidado ofrecidas por el personal de los bancos de sangre a la población en general, con el objetivo de generar cultura de donación y cuyo mensaje va enfocado a obtener sangre y hemocomponentes provenientes de personas que tienen un bajo riesgo de transmitir infecciones, además de contar con una provisión de sangre disponible para atender las demandas transfusionales de las diferentes instituciones hospitalarias; así mismo, pretende fortalecer la responsabilidad social en los ciudadanos y las acciones en salud pública, que conlleven a que el sistema transfusional sea eficaz y eficiente..',
+        'acciones de información, sensibilización y educación sobre la donación de sangre y conductas de autocuidado ofrecidas por el personal de los bancos de sangre a la población en general, con el objetivo de generar cultura de donación y cuyo mensaje va enfocado a obtener sangre y hemocomponentes provenientes de personas que tienen un bajo riesgo de transmitir infecciones, además de contar con una provisión de sangre disponible para atender las demandas transfusionales de las diferentes instituciones hospitalarias; así mismo, pretende fortalecer la responsabilidad social en los ciudadanos y las acciones en salud pública, que conlleven a que el sistema transfusional sea eficaz y eficiente..',
     },
     {
       termino: 'Donante voluntario',
       significado:
-        'Persona que dona sangre o componentes por su propia voluntad y no recibe ningún pago, ya sea en forma de dinero en efectivo o en especie que podría ser considerado un sustituto del dinero. Esto incluiría el tiempo fuera del trabajo que no sea razonablemente necesario para la donación y el viaje. Pequeños suvenires, refrigerios y reembolsos de los gastos directos asociados al viaje/transportación son compatibles con este tipo de donación',
+        'persona que dona sangre o componentes por su propia voluntad y no recibe ningún pago, ya sea en forma de dinero en efectivo o en especie que podría ser considerado un sustituto del dinero. Esto incluiría el tiempo fuera del trabajo que no sea razonablemente necesario para la donación y el viaje. Pequeños suvenires, refrigerios y reembolsos de los gastos directos asociados al viaje/transportación son compatibles con este tipo de donación',
     },
     {
       termino: 'Donante voluntario habitual, repetitiva / de repetición:',
       significado:
-        'Persona que dona sangre o componentes por lo menos 2 veces en los últimos 12 meses, por su propia voluntad y no recibe ningún pago, ya sea en forma de dinero en efectivo o en especie que podría ser considerado un sustituto del dinero.',
+        'persona que dona sangre o componentes por lo menos 2 veces en los últimos 12 meses, por su propia voluntad y no recibe ningún pago, ya sea en forma de dinero en efectivo o en especie que podría ser considerado un sustituto del dinero.',
     },
     {
       termino: 'Donante coaccionado o por reposición',
       significado:
-        'Persona que dona sangre o componentes, previo proceso de sensibilización y educación, cuando es requerida por un miembro de su familia o comunidad sin que haya exigencia de por medio para la prestación del servicio.',
+        'persona que dona sangre o componentes, previo proceso de sensibilización y educación, cuando es requerida por un miembro de su familia o comunidad sin que haya exigencia de por medio para la prestación del servicio.',
     },
   ],
   complementario: [
